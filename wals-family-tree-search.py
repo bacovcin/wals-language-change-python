@@ -1,4 +1,5 @@
 import sys
+from graphviz import Digraph
 
 # Go through all command line arguments and apply process
 for arg in sys.argv:
@@ -128,3 +129,37 @@ for arg in sys.argv:
             outfile.write(key[0]+' -> '+key[1]+'\n')
             for val in output[key]:
                 outfile.write('\t'+val[0] + ' -> ' + val[1] + '\n')
+
+        # Generate a state diagram
+        dot = Digraph(comment='Transition State Diagram')
+
+        # Create new dictionary with following structure:
+        # start state -> dictionary
+        # end state -> number of examples
+        graph_dict = {}
+        for key in output:
+            try:
+                graph_dict[key[0]][key[1]] = float(len(output[key]))
+            except KeyError:
+                graph_dict[key[0]] = {}
+                graph_dict[key[0]][key[1]] = float(len(output[key]))
+
+        # Create nodes
+        i = 0
+        node_dict = {}
+        for key in graph_dict:
+            dot.node(str(i), key)
+            node_dict[key] = str(i)
+
+        # Create edges
+        for key in graph_dict:
+            total_num = sum([graph_dict[key][x] for x in graph_dict[key]])
+            for key2 in graph_dict[key]:
+                percent = int(100*(graph_dict[key][key2]/total_num))
+                dot.edge(node_dict[key],
+                         node_dict[key2],
+                         label='%.2f' % percent,
+                         constraint='false')
+
+        # Save state diagram
+        dot.render(arg.split('.')[0]+'-graph.gv')
