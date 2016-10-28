@@ -150,6 +150,7 @@ for arg in sys.argv:
         for key in graph_dict:
             dot.node(str(i), key)
             node_dict[key] = str(i)
+            i += 1
 
         # Create edges
         for key in graph_dict:
