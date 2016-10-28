@@ -1,5 +1,16 @@
 import sys
 from graphviz import Digraph
+color_list =[
+ 'black',
+ 'red',
+ 'green',
+ 'blue',
+ 'darkorchid',
+ 'magenta',
+ 'coral4',
+ 'indigo',
+ 'turquoise4',
+ 'gold3']
 
 # Go through all command line arguments and apply process
 for arg in sys.argv:
@@ -131,7 +142,8 @@ for arg in sys.argv:
                 outfile.write('\t'+val[0] + ' -> ' + val[1] + '\n')
 
         # Generate a state diagram
-        dot = Digraph(comment='Transition State Diagram')
+        dot = Digraph(comment='Transition State Diagram',engine='circo')
+        #dot.body.append('size="6,6"')
 
         # Create new dictionary with following structure:
         # start state -> dictionary
@@ -148,7 +160,7 @@ for arg in sys.argv:
         i = 0
         node_dict = {}
         for key in graph_dict:
-            dot.node(str(i), key)
+            dot.node(str(i), key, fontcolor=color_list[i])
             node_dict[key] = str(i)
             i += 1
 
@@ -156,11 +168,11 @@ for arg in sys.argv:
         for key in graph_dict:
             total_num = sum([graph_dict[key][x] for x in graph_dict[key]])
             for key2 in graph_dict[key]:
-                percent = int(100*(graph_dict[key][key2]/total_num))
+                percent = '%.2f' % (100*(graph_dict[key][key2]/total_num))
                 dot.edge(node_dict[key],
                          node_dict[key2],
-                         label='%.2f' % percent,
-                         constraint='false')
+                         xlabel= percent+'%',
+                         fontcolor=color_list[int(node_dict[key])])
 
         # Save state diagram
         dot.render(arg.split('.')[0]+'-graph.gv')
