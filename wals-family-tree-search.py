@@ -33,8 +33,16 @@ for arg in sys.argv:
         # language -> value
 
         lgg = {}
+
+        # Also track the number of languages with each value for deciding ties
+        global_vals = {}
+
         for line in lines[i+1:]:
             s = line.rstrip().split('\t')
+            try:
+                global_vals[s[val_col]].append(s[ln_col])
+            except KeyError:
+                global_vals[s[val_col]] = [s[ln_col]]
             try:
                 lgg[s[fam_col]][s[gen_col]][s[ln_col]] = s[val_col]
             except KeyError:
@@ -50,7 +58,8 @@ for arg in sys.argv:
         # (start form, end form) -> list of tuples (start name, end name)
         output = {}
         for key1 in lgg:
-            geni = []
+            # Assign values to the genuses with tuples used in cases of ties
+            geni = {}
             for key2 in lgg[key1]:
                 tmp = {}
                 for lang in lgg[key1][key2]:
@@ -58,40 +67,52 @@ for arg in sys.argv:
                         tmp[lgg[key1][key2][lang]].append(lang)
                     except KeyError:
                         tmp[lgg[key1][key2][lang]] = [lang]
-                # Get maximum value item
-                tmp_keys = sorted(tmp.keys(),
-                                  key=lambda x: len(tmp[x]),
-                                  reverse=True)
-                gen_val = tmp_keys[0]
-                # Assign all genus to language changes
-                for key in tmp_keys:
-                    for lang in tmp[key]:
-                        try:
-                            output[(gen_val, key)].append((key2 + ' (gen)',
-                                                           lang))
-                        except KeyError:
-                            output[(gen_val, key)] = [(key2 + ' (gen)', lang)]
-                geni.append((key2, gen_val))
+                # Look for maximum value or ties
+                best = []
+                cur_best_len = 0
+                for key in tmp:
+                    if len(tmp[key]) > cur_best_len:
+                        best = [key]
+                    elif len(tmp[key]) == cur_best_len:
+                        best.append(key)
+                geni[key2] = best
+            # Get proportion of values at family level
             tmp = {}
-            for genus in geni:
-                try:
-                    tmp[genus[1]].append(genus[0])
-                except KeyError:
-                    tmp[genus[1]] = [genus[0]]
-            # Get maximum value item
-            tmp_keys = sorted(tmp.keys(),
-                              key=lambda x: len(tmp[x]),
-                              reverse=True)
-            fam_val = tmp_keys[0]
-            # Assign all genus to language changes
-            for key in tmp_keys:
-                for genus in tmp[key]:
+            for key2 in geni:
+                for val in geni[key2]:
                     try:
-                        output[(fam_val, key)].append((key1+' (fam)',
-                                                       genus+' (gen)'))
+                        tmp[val].append(key2)
                     except KeyError:
-                        output[(fam_val, key)] = [(key1+' (fam)',
-                                                   genus + ' (gen)')]
+                        tmp[val] = [key2]
+
+            tmp_keys = sorted(tmp.keys(),
+                              key=lambda x: (-len(tmp[x]),
+                                             -len(global_vals[x])))
+
+            fam_val = tmp_keys[0]
+            # For each genus, identify the correct value (resolving ties)
+            # add the resulting transitions to "output"
+            for key2 in geni:
+                gen_val = geni[key2]
+                if len(gen_val) > 1:
+                    gen_val = sorted(gen_val, key=lambda x: tmp_keys.index(x))[0]
+                else:
+                    gen_val = gen_val[0]
+                try:
+                    output[(fam_val, gen_val)].append((key1 + ' (fam)',
+                                                       key2 + ' (gen)'))
+                except KeyError:
+                    output[(fam_val, gen_val)] = [((key1 + ' (fam)',
+                                                   key2 + ' (gen)'))]
+                for lang in lgg[key1][key2]:
+                    lan_val = lgg[key1][key2][lang]
+                    try:
+                        output[(gen_val, lan_val)].append((key2 + ' (gen)',
+                                                           lang))
+                    except KeyError:
+                        output[(gen_val, lan_val)] = [((key2 + ' (gen)',
+                                                       lang))]
+
         # Print out output
         outfile = open(arg.split('.')[0]+'-output.txt', 'w')
         outfile.write('Number of transitions (sorted by start)\n')
