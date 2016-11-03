@@ -1,1922 +1,1910 @@
 Number of transitions (sorted by start)
-No dominant order -> No dominant order: 138
-No dominant order -> SVO: 63
-No dominant order -> SOV: 4
-No dominant order -> OVS: 3
+No dominant order -> No dominant order: 152
+No dominant order -> SOV: 16
+No dominant order -> SVO: 8
+No dominant order -> OVS: 6
+No dominant order -> VOS: 4
 No dominant order -> VSO: 2
-No dominant order -> VOS: 1
-OSV -> SOV: 2
-OSV -> OSV: 2
+No dominant order -> OSV: 1
 OVS -> OVS: 4
-SOV -> SOV: 775
-SOV -> SVO: 161
-SOV -> No dominant order: 67
-SOV -> VSO: 13
-SOV -> OVS: 5
-SOV -> VOS: 2
+SOV -> SOV: 744
+SOV -> No dominant order: 40
+SOV -> SVO: 26
+SOV -> VSO: 8
 SOV -> OSV: 2
-SVO -> SVO: 236
-SVO -> No dominant order: 11
-SVO -> SOV: 7
-SVO -> VOS: 1
-VOS -> VOS: 21
-VOS -> No dominant order: 9
-VOS -> SVO: 5
-VOS -> VSO: 1
-VOS -> SOV: 1
-VSO -> VSO: 113
-VSO -> SVO: 106
-VSO -> No dominant order: 33
-VSO -> SOV: 16
-VSO -> VOS: 14
-VSO -> OVS: 2
-VSO -> OSV: 1
+SOV -> OVS: 2
+SVO -> SVO: 553
+SVO -> No dominant order: 48
+SVO -> SOV: 32
+SVO -> VSO: 29
+SVO -> VOS: 11
+SVO -> OVS: 1
+SVO -> OSV: 1
+VOS -> VOS: 14
+VOS -> No dominant order: 1
+VSO -> VSO: 83
+VSO -> No dominant order: 14
+VSO -> SVO: 13
+VSO -> VOS: 5
+VSO -> OVS: 1
 
 +Number of transitions (sorted by end)
-No dominant order -> No dominant order: 138
-SOV -> No dominant order: 67
-VSO -> No dominant order: 33
-SVO -> No dominant order: 11
-VOS -> No dominant order: 9
+No dominant order -> No dominant order: 152
+SVO -> No dominant order: 48
+SOV -> No dominant order: 40
+VSO -> No dominant order: 14
+VOS -> No dominant order: 1
 SOV -> OSV: 2
-OSV -> OSV: 2
-VSO -> OSV: 1
-SOV -> OVS: 5
+No dominant order -> OSV: 1
+SVO -> OSV: 1
+No dominant order -> OVS: 6
 OVS -> OVS: 4
-No dominant order -> OVS: 3
-VSO -> OVS: 2
-SOV -> SOV: 775
-VSO -> SOV: 16
-SVO -> SOV: 7
-No dominant order -> SOV: 4
-OSV -> SOV: 2
-VOS -> SOV: 1
-SVO -> SVO: 236
-SOV -> SVO: 161
-VSO -> SVO: 106
-No dominant order -> SVO: 63
-VOS -> SVO: 5
-VOS -> VOS: 21
-VSO -> VOS: 14
-SOV -> VOS: 2
-SVO -> VOS: 1
-No dominant order -> VOS: 1
-VSO -> VSO: 113
-SOV -> VSO: 13
+SOV -> OVS: 2
+VSO -> OVS: 1
+SVO -> OVS: 1
+SOV -> SOV: 744
+SVO -> SOV: 32
+No dominant order -> SOV: 16
+SVO -> SVO: 553
+SOV -> SVO: 26
+VSO -> SVO: 13
+No dominant order -> SVO: 8
+VOS -> VOS: 14
+SVO -> VOS: 11
+VSO -> VOS: 5
+No dominant order -> VOS: 4
+VSO -> VSO: 83
+SVO -> VSO: 29
+SOV -> VSO: 8
 No dominant order -> VSO: 2
-VOS -> VSO: 1
 
 +Names of all transitions:
 No dominant order -> No dominant order
-	Sama-Bajaw (gen) -> Bajau (West Coast)
-	Sama-Bajaw (gen) -> Bajau (Sama)
-	Malayo-Sumbawan (gen) -> Acehnese
-	Malayo-Sumbawan (gen) -> Minangkabau
-	East Formosan (gen) -> Amis
-	Rukai (gen) -> Rukai (Tanan)
-	Minahasan (gen) -> Tondano
+	Eskimo (gen) -> Yup'ik (Central)
+	Eskimo (gen) -> Yupik (Siberian)
+	Kutenai (fam) -> Kutenai (gen)
+	Kutenai (gen) -> Kutenai
+	Karok (fam) -> Karok (gen)
+	Karok (gen) -> Karok
+	Cahuapanan (fam) -> Cahuapanan (gen)
+	Cahuapanan (gen) -> Jebero
+	Cariban (fam) -> Cariban (gen)
+	Cariban (gen) -> Macushi
+	Cariban (gen) -> Wai Wai
+	Cariban (gen) -> Apalaí
+	Tonkawa (fam) -> Tonkawa (gen)
+	Tonkawa (gen) -> Tonkawa
+	Moru-Ma'di (gen) -> Avokaya
+	Moru-Ma'di (gen) -> Logoti
+	Moru-Ma'di (gen) -> Ma'di
+	Moru-Ma'di (gen) -> Lugbara
+	Moru-Ma'di (gen) -> Moru
+	Lendu (gen) -> Lendu
+	Lendu (gen) -> Ngiti
+	Greek (gen) -> Greek (Modern)
+	Bunuban (fam) -> Bunuban (gen)
+	Bunuban (gen) -> Bunuba
+	Bunuban (gen) -> Gooniyandi
+	Movima (fam) -> Movima (gen)
+	Movima (gen) -> Movima
+	Darwin Region (fam) -> Limilngan (gen)
+	Limilngan (gen) -> Limilngan
+	Algic (fam) -> Yurok (gen)
+	Yurok (gen) -> Yurok
+	Algic (fam) -> Algonquian (gen)
+	Algonquian (gen) -> Ojibwa (Eastern)
+	Algonquian (gen) -> Menomini
+	Algonquian (gen) -> Cree (Plains)
+	Algonquian (gen) -> Massachusett
+	Algonquian (gen) -> Blackfoot
+	Algonquian (gen) -> Cree (Swampy)
+	Algonquian (gen) -> Passamaquoddy-Maliseet
+	Algic (fam) -> Wiyot (gen)
+	Wiyot (gen) -> Wiyot
+	Chon (fam) -> Puelche (gen)
+	Puelche (gen) -> Gününa Küne
+	Popolocan (gen) -> Mazatec (Huautla)
 	Paiwan (gen) -> Paiwan
-	Bilua (gen) -> Bilua
+	East Formosan (gen) -> Amis
+	Minahasan (gen) -> Tondano
+	Sama-Bajaw (gen) -> Bajau (Sama)
+	Sama-Bajaw (gen) -> Bajau (West Coast)
+	Rukai (gen) -> Rukai (Tanan)
+	Karankawa (fam) -> Karankawa (gen)
+	Karankawa (gen) -> Karankawa
+	Penutian (fam) -> Wintuan (gen)
+	Wintuan (gen) -> Wintu
+	Wintuan (gen) -> Patwin
+	Penutian (fam) -> Sahaptian (gen)
+	Sahaptian (gen) -> Nez Perce
+	Penutian (fam) -> Klamath-Modoc (gen)
+	Klamath-Modoc (gen) -> Klamath
+	Penutian (fam) -> Yokuts (gen)
+	Yokuts (gen) -> Yawelmani
+	Yokuts (gen) -> Wikchamni
+	Yokuts (gen) -> Yokuts (Yaudanchi)
+	Penutian (fam) -> Miwok (gen)
+	Miwok (gen) -> Miwok (Southern Sierra)
+	Keresan (fam) -> Keresan (gen)
+	Keresan (gen) -> Acoma
+	Keresan (gen) -> Keresan (Santa Ana)
+	South Bird's Head (gen) -> Inanwatan
+	Camsá (fam) -> Camsá (gen)
+	Camsá (gen) -> Camsá
+	Southeastern Pama-Nyungan (gen) -> Muruwari
+	Southeastern Pama-Nyungan (gen) -> Gidabal
+	Southeastern Pama-Nyungan (gen) -> Gumbaynggir
+	Southeastern Pama-Nyungan (gen) -> Gureng Gureng
+	Southeastern Pama-Nyungan (gen) -> Madimadi
+	Western Pama-Nyungan (gen) -> Panyjima
+	Western Pama-Nyungan (gen) -> Ritharngu
+	Western Pama-Nyungan (gen) -> Warlpiri
+	Western Pama-Nyungan (gen) -> Nhanda
+	Western Pama-Nyungan (gen) -> Djaru
+	Western Pama-Nyungan (gen) -> Dhargari
+	Western Pama-Nyungan (gen) -> Djambarrpuyngu
+	Western Pama-Nyungan (gen) -> Djinang
+	Garrwan (fam) -> Garrwan (gen)
+	Garrwan (gen) -> Garrwa
+	Trumai (fam) -> Trumai (gen)
+	Trumai (gen) -> Trumai
+	Mangrida (fam) -> Ndjébbana (gen)
+	Ndjébbana (gen) -> Ndjébbana
+	Mangrida (fam) -> Burarran (gen)
+	Burarran (gen) -> Gurr-goni
+	Tacanan (fam) -> Tacanan (gen)
+	Tacanan (gen) -> Cavineña
+	Tacanan (gen) -> Tacana
+	Leko (fam) -> Leko (gen)
+	Leko (gen) -> Leko
+	Nicobarese (gen) -> Nancowry
+	Ticuna (fam) -> Ticuna (gen)
+	Ticuna (gen) -> Ticuna
+	Talodi (gen) -> Masakin
+	Nyulnyulan (fam) -> Nyulnyulan (gen)
+	Nyulnyulan (gen) -> Yawuru
+	Nyulnyulan (gen) -> Warrwa
+	Nyulnyulan (gen) -> Nyigina
+	Ngankikurungkurr (gen) -> Ngan'gityemerri
+	Ngankikurungkurr (gen) -> Ngankikurungkurr
+	Mirndi (fam) -> Wambayan (gen)
+	Wambayan (gen) -> Wambaya
+	Mirndi (fam) -> Jaminjungan (gen)
+	Jaminjungan (gen) -> Jaminjung
+	Yangmanic (fam) -> Yangmanic (gen)
+	Yangmanic (gen) -> Wardaman
+	Kwaza (fam) -> Kwaza (gen)
+	Kwaza (gen) -> Kwaza
 	Pre-Andine Arawakan (gen) -> Campa (Axininca)
-	Peba-Yaguan (fam) -> Peba-Yaguan (gen)
-	Peba-Yaguan (gen) -> Yagua
+	Bilua (gen) -> Bilua
+	Worrorran (fam) -> Worrorran (gen)
+	Worrorran (gen) -> Gunin
 	Gunwinyguan (fam) -> Nunggubuyu (gen)
 	Nunggubuyu (gen) -> Nunggubuyu
+	Gunwinyguan (fam) -> Gunwinygic (gen)
+	Gunwinygic (gen) -> Bininj Gun-Wok
 	Gunwinyguan (fam) -> Ngalakan (gen)
 	Ngalakan (gen) -> Ngalakan
 	Gunwinyguan (fam) -> Anindilyakwa (gen)
 	Anindilyakwa (gen) -> Anindilyakwa
-	South Bird's Head (gen) -> Inanwatan
-	Karok (fam) -> Karok (gen)
-	Karok (gen) -> Karok
+	Palaihnihan (gen) -> Atsugewi
+	Shasta (gen) -> Shasta
+	Mangarrayi-Maran (fam) -> Alawa (gen)
+	Alawa (gen) -> Alawa
+	Mangarrayi-Maran (fam) -> Mara (gen)
+	Mara (gen) -> Mara
 	Oregon Coast (fam) -> Siuslawan (gen)
 	Siuslawan (gen) -> Siuslaw
 	Oregon Coast (fam) -> Coosan (gen)
 	Coosan (gen) -> Coos (Hanis)
-	Worrorran (fam) -> Worrorran (gen)
-	Worrorran (gen) -> Gunin
-	Ngankikurungkurr (gen) -> Ngan'gityemerri
-	Ngankikurungkurr (gen) -> Ngankikurungkurr
-	Bunuban (fam) -> Bunuban (gen)
-	Bunuban (gen) -> Bunuba
-	Bunuban (gen) -> Gooniyandi
-	Caddoan (fam) -> Caddoan (gen)
-	Caddoan (gen) -> Wichita
-	Darwin Region (fam) -> Limilngan (gen)
-	Limilngan (gen) -> Limilngan
-	Kwaza (fam) -> Kwaza (gen)
-	Kwaza (gen) -> Kwaza
-	Mirndi (fam) -> Jaminjungan (gen)
-	Jaminjungan (gen) -> Jaminjung
-	Mirndi (fam) -> Wambayan (gen)
-	Wambayan (gen) -> Wambaya
-	Germanic (gen) -> German
-	Germanic (gen) -> Dutch
-	Germanic (gen) -> Frisian
-	Greek (gen) -> Greek (Modern)
-	Tonkawa (fam) -> Tonkawa (gen)
-	Tonkawa (gen) -> Tonkawa
-	Kwa (gen) -> Ajagbe
-	Ubangi (gen) -> Barambu
-	Ubangi (gen) -> Dongo
-	Mel (gen) -> Kisi
-	Nupoid (gen) -> Gwari
-	Idomoid (gen) -> Idoma
-	Karankawa (fam) -> Karankawa (gen)
-	Karankawa (gen) -> Karankawa
-	Kutenai (fam) -> Kutenai (gen)
-	Kutenai (gen) -> Kutenai
-	Talodi (gen) -> Masakin
-	Cahuapanan (fam) -> Cahuapanan (gen)
-	Cahuapanan (gen) -> Jebero
-	Garrwan (fam) -> Garrwan (gen)
-	Garrwan (gen) -> Garrwa
-	Ticuna (fam) -> Ticuna (gen)
-	Ticuna (gen) -> Ticuna
-	Chon (fam) -> Puelche (gen)
-	Puelche (gen) -> Gününa Küne
-	Ndjébbana (gen) -> Ndjébbana
-	Keresan (fam) -> Keresan (gen)
-	Keresan (gen) -> Acoma
-	Keresan (gen) -> Keresan (Santa Ana)
-	West Chadic (gen) -> Miya
-	Iroquoian (fam) -> Northern Iroquoian (gen)
-	Northern Iroquoian (gen) -> Mohawk
-	Northern Iroquoian (gen) -> Tuscarora
-	Northern Iroquoian (gen) -> Wyandot
-	Northern Iroquoian (gen) -> Oneida
-	Northern Iroquoian (gen) -> Seneca
-	Iroquoian (fam) -> Southern Iroquoian (gen)
-	Southern Iroquoian (gen) -> Cherokee
-	South Guaicuruan (gen) -> Toba
-	Mangarrayi-Maran (fam) -> Mara (gen)
-	Mara (gen) -> Mara
-	Mangarrayi-Maran (fam) -> Alawa (gen)
-	Alawa (gen) -> Alawa
-	Camsá (fam) -> Camsá (gen)
-	Camsá (gen) -> Camsá
-	Leko (fam) -> Leko (gen)
-	Leko (gen) -> Leko
-	Aslian (gen) -> Semelai
-	Popolocan (gen) -> Mazatec (Huautla)
-	Palaihnihan (gen) -> Atsugewi
-	Shasta (gen) -> Shasta
-	Algic (fam) -> Wiyot (gen)
-	Wiyot (gen) -> Wiyot
-	Algic (fam) -> Yurok (gen)
-	Yurok (gen) -> Yurok
-	Algic (fam) -> Algonquian (gen)
-	Algonquian (gen) -> Blackfoot
-	Algonquian (gen) -> Passamaquoddy-Maliseet
-	Algonquian (gen) -> Cree (Swampy)
-	Algonquian (gen) -> Cree (Plains)
-	Algonquian (gen) -> Massachusett
-	Algonquian (gen) -> Menomini
-	Algonquian (gen) -> Ojibwa (Eastern)
-	Nyulnyulan (fam) -> Nyulnyulan (gen)
-	Nyulnyulan (gen) -> Nyigina
-	Nyulnyulan (gen) -> Warrwa
-	Nyulnyulan (gen) -> Yawuru
-	Tangkic (fam) -> Tangkic (gen)
-	Tangkic (gen) -> Kayardild
-	Movima (fam) -> Movima (gen)
-	Movima (gen) -> Movima
-	Lendu (gen) -> Lendu
-	Lendu (gen) -> Ngiti
-	Mangbutu-Efe (gen) -> Lese
-	Moru-Ma'di (gen) -> Ma'di
-	Moru-Ma'di (gen) -> Moru
-	Moru-Ma'di (gen) -> Avokaya
-	Moru-Ma'di (gen) -> Logoti
-	Moru-Ma'di (gen) -> Lugbara
-	Penutian (fam) -> Miwok (gen)
-	Miwok (gen) -> Miwok (Southern Sierra)
-	Penutian (fam) -> Klamath-Modoc (gen)
-	Klamath-Modoc (gen) -> Klamath
-	Penutian (fam) -> Wintuan (gen)
-	Wintuan (gen) -> Patwin
-	Wintuan (gen) -> Wintu
-	Penutian (fam) -> Yokuts (gen)
-	Yokuts (gen) -> Wikchamni
-	Yokuts (gen) -> Yokuts (Yaudanchi)
-	Yokuts (gen) -> Yawelmani
-	Yangmanic (fam) -> Yangmanic (gen)
-	Yangmanic (gen) -> Wardaman
-	Totonacan (fam) -> Totonacan (gen)
-	Totonacan (gen) -> Tepehua (Huehuetla)
-	Trumai (fam) -> Trumai (gen)
-	Trumai (gen) -> Trumai
-SOV -> No dominant order
-	Solomons East Papuan (fam) -> Bilua (gen)
-	Arawakan (fam) -> Pre-Andine Arawakan (gen)
+	Khoe-Kwadi (fam) -> Khoe-Kwadi (gen)
 	Khoe-Kwadi (gen) -> Korana
 	Khoe-Kwadi (gen) -> //Ani
-	Anson Bay (gen) -> Bachamal
-	Gunwinygic (gen) -> Bininj Gun-Wok
-	Eskimo (gen) -> Yupik (Siberian)
-	Eskimo (gen) -> Yup'ik (Central)
-	Marind (fam) -> South Bird's Head (gen)
-	Southern Daly (fam) -> Ngankikurungkurr (gen)
-	Northern Chukotko-Kamchatkan (gen) -> Chukchi
-	Ugric (gen) -> Hungarian
-	Numic (gen) -> Ute
-	Numic (gen) -> Chemehuevi
-	Numic (gen) -> Kawaiisu
-	Tarahumaran (gen) -> Guarijío
-	California Uto-Aztecan (gen) -> Luiseño
-	Slavic (gen) -> Belorussian
-	Indic (gen) -> Domari
-	Indic (gen) -> Romani (Welsh)
-	Indo-European (fam) -> Germanic (gen)
+	Peba-Yaguan (fam) -> Peba-Yaguan (gen)
+	Peba-Yaguan (gen) -> Yagua
+	Iroquoian (fam) -> Southern Iroquoian (gen)
+	Southern Iroquoian (gen) -> Cherokee
+	Iroquoian (fam) -> Northern Iroquoian (gen)
+	Northern Iroquoian (gen) -> Mohawk
+	Northern Iroquoian (gen) -> Wyandot
+	Northern Iroquoian (gen) -> Seneca
+	Northern Iroquoian (gen) -> Tuscarora
+	Northern Iroquoian (gen) -> Oneida
+	Caddoan (fam) -> Caddoan (gen)
+	Caddoan (gen) -> Wichita
+SVO -> No dominant order
+	Aztecan (gen) -> Pipil
+	Central Sudanic (fam) -> Moru-Ma'di (gen)
+	Central Sudanic (fam) -> Lendu (gen)
+	Mangbutu-Efe (gen) -> Lese
 	Indo-European (fam) -> Greek (gen)
-	Armenian (gen) -> Armenian (Eastern)
-	Kiowa-Tanoan (gen) -> Tiwa (Northern)
-	Arhuacic (gen) -> Damana
+	Slavic (gen) -> Belorussian
+	Germanic (gen) -> Dutch
+	Germanic (gen) -> German
+	Germanic (gen) -> Frisian
+	Mixe-Zoque (gen) -> Zoque (Ostuacan)
+	Mixe-Zoque (gen) -> Mixe (Ayutla)
+	Tangkic (gen) -> Kayardild
+	Totonacan (gen) -> Tepehua (Huehuetla)
+	Oceanic (gen) -> Fijian
+	Oceanic (gen) -> Tongan
+	Oceanic (gen) -> Mono-Alu
+	Oceanic (gen) -> Samoan
+	Oceanic (gen) -> Kilivila
+	Oceanic (gen) -> Nauruan
+	Oceanic (gen) -> Tinrin
+	Oceanic (gen) -> Nadroga
+	Oceanic (gen) -> Drehu
+	Austronesian (fam) -> Paiwan (gen)
+	Austronesian (fam) -> East Formosan (gen)
+	Austronesian (fam) -> Minahasan (gen)
+	Austronesian (fam) -> Sama-Bajaw (gen)
+	Malayo-Sumbawan (gen) -> Acehnese
+	Malayo-Sumbawan (gen) -> Minangkabau
+	Austronesian (fam) -> Rukai (gen)
+	Nupoid (gen) -> Gwari
+	Mel (gen) -> Kisi
+	Ubangi (gen) -> Barambu
+	Ubangi (gen) -> Dongo
+	Kwa (gen) -> Ajagbe
+	Bantoid (gen) -> Swati
+	Bantoid (gen) -> Lamba
+	Bantoid (gen) -> Tikar
+	Bantoid (gen) -> Nyamwezi
+	Idomoid (gen) -> Idoma
 	Kru (gen) -> Dadjriwalé
 	Kru (gen) -> Neyo
-	Bantoid (gen) -> Nyamwezi
-	Bantoid (gen) -> Lamba
-	Bantoid (gen) -> Swati
-	Bantoid (gen) -> Tikar
-	Serra Hills (gen) -> Poko-Rawo
-	Tacanan (gen) -> Cavineña
-	Tacanan (gen) -> Tacana
+	West Chadic (gen) -> Miya
+	Austro-Asiatic (fam) -> Nicobarese (gen)
+	Aslian (gen) -> Semelai
+	Kordofanian (fam) -> Talodi (gen)
+	Arawakan (fam) -> Pre-Andine Arawakan (gen)
+	South Guaicuruan (gen) -> Toba
+	Surmic (gen) -> Chai
+SOV -> No dominant order
+	Eskimo-Aleut (fam) -> Eskimo (gen)
+	California Uto-Aztecan (gen) -> Luiseño
+	Tarahumaran (gen) -> Guarijío
+	Tepiman (gen) -> O'odham
+	Numic (gen) -> Kawaiisu
+	Numic (gen) -> Ute
+	Numic (gen) -> Chemehuevi
 	Wagaydy (gen) -> Emmi
-	Panoan (gen) -> Chácobo
-	Panoan (gen) -> Amahuaca
+	Ge-Kaingang (gen) -> Panará
+	Arhuacic (gen) -> Damana
+	Armenian (gen) -> Armenian (Eastern)
+	Indic (gen) -> Domari
+	Indic (gen) -> Romani (Welsh)
+	Serra Hills (gen) -> Poko-Rawo
+	Marind (fam) -> South Bird's Head (gen)
+	Northern Chukotko-Kamchatkan (gen) -> Chukchi
+	Ugric (gen) -> Hungarian
 	Tucanoan (gen) -> Barasano
-	Songhay (gen) -> Zarma
-	Mangrida (fam) -> Ndjébbana (gen)
-	Burarran (gen) -> Gurr-goni
-	Afro-Asiatic (fam) -> West Chadic (gen)
 	Semitic (gen) -> Arabic (Syrian)
 	Semitic (gen) -> Mehri
 	Central Cushitic (gen) -> Bilin
-	Eastern Daly (gen) -> Kamu
-	Cariban (gen) -> Wai Wai
-	Cariban (gen) -> Apalaí
-	Cariban (gen) -> Macushi
-	Ge-Kaingang (gen) -> Panará
 	Northern Pama-Nyungan (gen) -> Warrgamay
 	Northern Pama-Nyungan (gen) -> Dyirbal
-	Central Pama-Nyungan (gen) -> Adynyamathanha
+	Pama-Nyungan (fam) -> Southeastern Pama-Nyungan (gen)
+	Pama-Nyungan (fam) -> Western Pama-Nyungan (gen)
 	Central Pama-Nyungan (gen) -> Wangkumara
 	Central Pama-Nyungan (gen) -> Pitta Pitta
-	Western Pama-Nyungan (gen) -> Panyjima
-	Western Pama-Nyungan (gen) -> Ritharngu
-	Western Pama-Nyungan (gen) -> Warlpiri
-	Western Pama-Nyungan (gen) -> Djinang
-	Western Pama-Nyungan (gen) -> Djaru
-	Western Pama-Nyungan (gen) -> Djambarrpuyngu
-	Western Pama-Nyungan (gen) -> Nhanda
-	Western Pama-Nyungan (gen) -> Dhargari
+	Central Pama-Nyungan (gen) -> Adynyamathanha
+	Songhay (gen) -> Zarma
 	Munda (gen) -> Kharia
+	Eastern Daly (gen) -> Kamu
+	Panoan (gen) -> Amahuaca
+	Panoan (gen) -> Chácobo
 	Athapaskan (gen) -> Hupa
+	Southern Daly (fam) -> Ngankikurungkurr (gen)
+	Solomons East Papuan (fam) -> Bilua (gen)
+	Anson Bay (gen) -> Bachamal
 	Hokan (fam) -> Palaihnihan (gen)
 	Hokan (fam) -> Shasta (gen)
+	Kiowa-Tanoan (gen) -> Tiwa (Northern)
 VSO -> No dominant order
-	Oceanic (gen) -> Nadroga
-	Oceanic (gen) -> Fijian
-	Oceanic (gen) -> Tongan
-	Oceanic (gen) -> Nauruan
-	Oceanic (gen) -> Mono-Alu
-	Oceanic (gen) -> Samoan
-	Oceanic (gen) -> Tinrin
-	Oceanic (gen) -> Drehu
-	Oceanic (gen) -> Kilivila
-	Austronesian (fam) -> Sama-Bajaw (gen)
-	Austronesian (fam) -> Malayo-Sumbawan (gen)
-	Austronesian (fam) -> East Formosan (gen)
-	Austronesian (fam) -> Rukai (gen)
+	Oto-Manguean (fam) -> Popolocan (gen)
 	Northern Luzon (gen) -> Bontok
-	Austronesian (fam) -> Minahasan (gen)
-	Austronesian (fam) -> Paiwan (gen)
-	Surmic (gen) -> Chai
-	Nilotic (gen) -> Anywa
-	Nilotic (gen) -> Dinka
-	Nilotic (gen) -> Nuer
+	Tsimshianic (gen) -> Gitksan
+	Berber (gen) -> Berber (Chaouia)
+	Berber (gen) -> Tashlhiyt
 	Mayan (gen) -> Lacandón
 	Mayan (gen) -> Tzutujil
-	Tepiman (gen) -> O'odham
-	Aztecan (gen) -> Pipil
-	Interior Salish (gen) -> Shuswap
 	Interior Salish (gen) -> Thompson
-	Berber (gen) -> Tashlhiyt
-	Berber (gen) -> Berber (Chaouia)
-	Oto-Manguean (fam) -> Popolocan (gen)
-	Southern Wakashan (gen) -> Nuuchahnulth
+	Interior Salish (gen) -> Shuswap
 	Northern Wakashan (gen) -> Kwakw'ala
-	Sahaptian (gen) -> Nez Perce
-	Tsimshianic (gen) -> Gitksan
-SVO -> No dominant order
-	Niger-Congo (fam) -> Kwa (gen)
-	Niger-Congo (fam) -> Ubangi (gen)
-	Niger-Congo (fam) -> Mel (gen)
-	Niger-Congo (fam) -> Nupoid (gen)
-	Niger-Congo (fam) -> Idomoid (gen)
-	Kordofanian (fam) -> Talodi (gen)
-	Guaicuruan (fam) -> South Guaicuruan (gen)
-	Austro-Asiatic (fam) -> Aslian (gen)
-	Central Sudanic (fam) -> Lendu (gen)
-	Central Sudanic (fam) -> Mangbutu-Efe (gen)
-	Central Sudanic (fam) -> Moru-Ma'di (gen)
+	Southern Wakashan (gen) -> Nuuchahnulth
+	Nilotic (gen) -> Dinka
+	Nilotic (gen) -> Nuer
+	Nilotic (gen) -> Anywa
 VOS -> No dominant order
 	Northwest Sumatra-Barrier Islands (gen) -> Batak (Karo)
-	Mixe-Zoque (gen) -> Zoque (Ostuacan)
-	Mixe-Zoque (gen) -> Mixe (Ayutla)
-	Southeastern Pama-Nyungan (gen) -> Madimadi
-	Southeastern Pama-Nyungan (gen) -> Muruwari
-	Southeastern Pama-Nyungan (gen) -> Gumbaynggir
-	Southeastern Pama-Nyungan (gen) -> Gureng Gureng
-	Southeastern Pama-Nyungan (gen) -> Gidabal
-	Nicobarese (gen) -> Nancowry
 SOV -> OSV
-	Khoe-Kwadi (gen) -> Kxoe
 	Northern Pama-Nyungan (gen) -> Wik Ngathana
-OSV -> OSV
-	Nadahup (fam) -> Nadahup (gen)
 	Nadahup (gen) -> Nadëb
-VSO -> OSV
+No dominant order -> OSV
+	Khoe-Kwadi (gen) -> Kxoe
+SVO -> OSV
 	Oceanic (gen) -> Tobati
-SOV -> OVS
-	Tucanoan (gen) -> Cubeo
-	Tupi-Guaraní (gen) -> Asuriní
+No dominant order -> OVS
 	Cariban (gen) -> Hixkaryana
 	Cariban (gen) -> Tiriyo
 	Cariban (gen) -> Kuikúro
+	Chon (fam) -> Chon Proper (gen)
+	Worrorran (gen) -> Ungarinjin
+	Mangarrayi-Maran (fam) -> Mangarrayi (gen)
 OVS -> OVS
 	Urarina (fam) -> Urarina (gen)
 	Urarina (gen) -> Urarina
 	Chon Proper (gen) -> Selknam
 	Mangarrayi (gen) -> Mangarrayi
-No dominant order -> OVS
-	Worrorran (gen) -> Ungarinjin
-	Chon (fam) -> Chon Proper (gen)
-	Mangarrayi-Maran (fam) -> Mangarrayi (gen)
+SOV -> OVS
+	Tupi-Guaraní (gen) -> Asuriní
+	Tucanoan (gen) -> Cubeo
 VSO -> OVS
-	Oceanic (gen) -> Tuvaluan
 	Nilotic (gen) -> Päri
+SVO -> OVS
+	Oceanic (gen) -> Tuvaluan
 SOV -> SOV
-	Burushaski (fam) -> Burushaski (gen)
-	Burushaski (gen) -> Burushaski
-	Eastern Sudanic (fam) -> Nyimang (gen)
-	Nyimang (gen) -> Nyimang
-	Eastern Sudanic (fam) -> Taman (gen)
-	Taman (gen) -> Tama
-	Eastern Sudanic (fam) -> Daju (gen)
-	Daju (gen) -> Sila
-	Eastern Sudanic (fam) -> Nara (gen)
-	Nara (gen) -> Nara (in Ethiopia)
-	Eastern Sudanic (fam) -> Nubian (gen)
-	Nubian (gen) -> Nubian (Dongolese)
-	Nubian (gen) -> Nubian (Kunuz)
-	Solomons East Papuan (fam) -> Lavukaleve (gen)
-	Lavukaleve (gen) -> Lavukaleve
-	Solomons East Papuan (fam) -> Savosavo (gen)
-	Savosavo (gen) -> Savosavo
-	East Geelvink Bay (fam) -> East Geelvink Bay (gen)
-	East Geelvink Bay (gen) -> Bauzi
-	Arawakan (fam) -> Inland Northern Arawakan (gen)
-	Inland Northern Arawakan (gen) -> Tariana
-	Inland Northern Arawakan (gen) -> Resígaro
-	Arawakan (fam) -> Purus (gen)
-	Purus (gen) -> Piro
-	Teberan-Pawaian (fam) -> Pawaian (gen)
-	Pawaian (gen) -> Pawaian
-	Teberan-Pawaian (fam) -> Teberan (gen)
-	Teberan (gen) -> Folopa
-	Khoe-Kwadi (fam) -> Khoe-Kwadi (gen)
-	Khoe-Kwadi (gen) -> Khoekhoe
-	Anson Bay (fam) -> Anson Bay (gen)
-	Anson Bay (gen) -> Pungupungu
-	Dagan (fam) -> Dagan (gen)
-	Dagan (gen) -> Daga
-	Yeniseian (fam) -> Yeniseian (gen)
-	Yeniseian (gen) -> Ket
-	Wappo-Yukian (fam) -> Wappo (gen)
-	Wappo (gen) -> Wappo
-	Sino-Tibetan (fam) -> Mahakiranti (gen)
-	Mahakiranti (gen) -> Kham
-	Mahakiranti (gen) -> Wambule
-	Mahakiranti (gen) -> Khaling
-	Mahakiranti (gen) -> Hayu
-	Mahakiranti (gen) -> Newari (Kathmandu)
-	Mahakiranti (gen) -> Magar
-	Mahakiranti (gen) -> Chepang
-	Mahakiranti (gen) -> Newar (Dolakha)
-	Mahakiranti (gen) -> Athpare
-	Mahakiranti (gen) -> Camling
-	Mahakiranti (gen) -> Thulung
-	Mahakiranti (gen) -> Thangmi
-	Sino-Tibetan (fam) -> Digaroan (gen)
-	Digaroan (gen) -> Digaro
-	Sino-Tibetan (fam) -> Jingpho (gen)
-	Jingpho (gen) -> Jingpho
-	Sino-Tibetan (fam) -> Tani (gen)
-	Tani (gen) -> Miju
-	Tani (gen) -> Galo
-	Tani (gen) -> Bokar
-	Tani (gen) -> Apatani
-	Tani (gen) -> Mising
-	Sino-Tibetan (fam) -> Dhimalic (gen)
-	Dhimalic (gen) -> Dhimal
-	Sino-Tibetan (fam) -> Burmese-Lolo (gen)
-	Burmese-Lolo (gen) -> Yi
-	Burmese-Lolo (gen) -> Lalo
-	Burmese-Lolo (gen) -> Lahu
-	Burmese-Lolo (gen) -> Jino
-	Burmese-Lolo (gen) -> Bisu
-	Burmese-Lolo (gen) -> Lisu
-	Burmese-Lolo (gen) -> Maru
-	Burmese-Lolo (gen) -> Burmese
-	Burmese-Lolo (gen) -> Akha
-	Burmese-Lolo (gen) -> Nusu
-	Sino-Tibetan (fam) -> Qiangic (gen)
-	Qiangic (gen) -> Pumi
-	Sino-Tibetan (fam) -> rGyalrong (gen)
-	rGyalrong (gen) -> rGyalrong (Caodeng)
-	Sino-Tibetan (fam) -> Nungish (gen)
-	Nungish (gen) -> Anong
-	Nungish (gen) -> Rawang
-	Sino-Tibetan (fam) -> Lepcha (gen)
-	Lepcha (gen) -> Lepcha
-	Sino-Tibetan (fam) -> Bodo-Garo (gen)
-	Bodo-Garo (gen) -> Garo
-	Bodo-Garo (gen) -> Kachari
-	Bodo-Garo (gen) -> Deuri
-	Bodo-Garo (gen) -> Kokborok
-	Sino-Tibetan (fam) -> Northern Naga (gen)
-	Northern Naga (gen) -> Nocte
-	Northern Naga (gen) -> Chang
-	Sino-Tibetan (fam) -> Bodic (gen)
-	Bodic (gen) -> Baragaunle
-	Bodic (gen) -> Sherpa
-	Bodic (gen) -> Tamang (Eastern)
-	Bodic (gen) -> Zhang-Zhung
-	Bodic (gen) -> Balti
-	Bodic (gen) -> Pattani
-	Bodic (gen) -> Jad
-	Bodic (gen) -> Tibetan (Modern Literary)
-	Bodic (gen) -> Tod
-	Bodic (gen) -> Kham (Tibetan) (Nangchen)
-	Bodic (gen) -> Nyamkad
-	Bodic (gen) -> Johari
-	Bodic (gen) -> Tibetan (Dingri)
-	Bodic (gen) -> Ladakhi
-	Bodic (gen) -> Tibetan (Drokpa)
-	Bodic (gen) -> Purki
-	Bodic (gen) -> Rang Pas
-	Bodic (gen) -> Marchha
-	Bodic (gen) -> Spitian
-	Bodic (gen) -> Tshangla
-	Bodic (gen) -> Gurung
-	Bodic (gen) -> Thakali
-	Bodic (gen) -> Tibetan (Standard Spoken)
-	Bodic (gen) -> Kham (Dege)
-	Bodic (gen) -> Bunan
-	Bodic (gen) -> Tinani
-	Bodic (gen) -> Chaudangsi
-	Bodic (gen) -> Darma
-	Bodic (gen) -> Kinnauri
-	Bodic (gen) -> Kanashi
-	Sino-Tibetan (fam) -> Kuki-Chin (gen)
-	Kuki-Chin (gen) -> Tarao
-	Kuki-Chin (gen) -> Lotha
-	Kuki-Chin (gen) -> Naga (Mao)
-	Kuki-Chin (gen) -> Lai
-	Kuki-Chin (gen) -> Mikir
-	Kuki-Chin (gen) -> Ralte
-	Kuki-Chin (gen) -> Ao
-	Kuki-Chin (gen) -> Bawm
-	Kuki-Chin (gen) -> Naga (Tangkhul)
-	Kuki-Chin (gen) -> Mizo
-	Kuki-Chin (gen) -> Angami
-	Barbacoan (fam) -> Barbacoan (gen)
-	Barbacoan (gen) -> Awa Pit
-	Barbacoan (gen) -> Tsafiki
-	Barbacoan (gen) -> Cayapa
-	Gunwinygic (gen) -> Ngalkbun
-	Rembarnga (gen) -> Rembarnga
-	South Andamanese (fam) -> South Andamanese (gen)
-	South Andamanese (gen) -> Jarawa (in Andamans)
-	South Andamanese (gen) -> Onge
-	Eskimo-Aleut (fam) -> Eskimo (gen)
-	Eskimo (gen) -> Greenlandic (West)
-	Eskimo-Aleut (fam) -> Aleut (gen)
-	Aleut (gen) -> Aleut
-	Marind (fam) -> Marind Proper (gen)
-	Marind Proper (gen) -> Boazi
-	Marind Proper (gen) -> Yaqay
-	Marind Proper (gen) -> Marind
-	Marind Proper (gen) -> Zimakani
-	Saharan (fam) -> Western Saharan (gen)
-	Western Saharan (gen) -> Kanuri
-	Western Saharan (gen) -> Kanembu
-	Western Saharan (gen) -> Tubu
-	Saharan (fam) -> Eastern Saharan (gen)
-	Eastern Saharan (gen) -> Beria
-	Jivaroan (fam) -> Jivaroan (gen)
-	Jivaroan (gen) -> Jivaro
-	Nambikuaran (fam) -> Nambikuaran (gen)
-	Nambikuaran (gen) -> Nambikuára (Southern)
-	Yele (fam) -> Yele (gen)
-	Yele (gen) -> Yelî Dnye
-	Aymaran (fam) -> Aymaran (gen)
-	Aymaran (gen) -> Aymara (Central)
-	Shabo (fam) -> Shabo (gen)
-	Shabo (gen) -> Shabo
-	Southern Daly (fam) -> Murrinh-Patha (gen)
-	Murrinh-Patha (gen) -> Murrinh-Patha
-	Chukotko-Kamchatkan (fam) -> Southern Chukotko-Kamchatkan (gen)
-	Southern Chukotko-Kamchatkan (gen) -> Itelmen
-	Chukotko-Kamchatkan (fam) -> Northern Chukotko-Kamchatkan (gen)
-	Northern Chukotko-Kamchatkan (gen) -> Koryak
-	Uralic (fam) -> Permic (gen)
-	Permic (gen) -> Udmurt
-	Uralic (fam) -> Samoyedic (gen)
-	Samoyedic (gen) -> Nganasan
-	Samoyedic (gen) -> Selkup
-	Samoyedic (gen) -> Enets
-	Samoyedic (gen) -> Nenets
-	Samoyedic (gen) -> Kamass
-	Uralic (fam) -> Ugric (gen)
-	Ugric (gen) -> Mansi
-	Ugric (gen) -> Khanty
-	Tunica (fam) -> Tunica (gen)
-	Tunica (gen) -> Tunica
-	Ijoid (fam) -> Ijoid (gen)
-	Ijoid (gen) -> Ijo (Kolokuma)
-	Candoshi (fam) -> Candoshi (gen)
-	Candoshi (gen) -> Candoshi
-	Waorani (fam) -> Waorani (gen)
-	Waorani (gen) -> Waorani
+	Kwomtari-Baibai (fam) -> Fas (gen)
+	Fas (gen) -> Momu
+	Kwomtari-Baibai (fam) -> Kwomtari (gen)
+	Kwomtari (gen) -> Kwomtari
 	Misumalpan (fam) -> Misumalpan (gen)
 	Misumalpan (gen) -> Miskito
+	Fur (fam) -> Fur (gen)
+	Fur (gen) -> Fur
+	Yámana (fam) -> Yámana (gen)
+	Yámana (gen) -> Yahgan
+	Great Andamanese (fam) -> Great Andamanese (gen)
+	Great Andamanese (gen) -> Great Andamanese
+	Bulaka River (fam) -> Bulaka River (gen)
+	Bulaka River (gen) -> Yelmek
+	Bulaka River (gen) -> Maklew
+	Saharan (fam) -> Eastern Saharan (gen)
+	Eastern Saharan (gen) -> Beria
+	Saharan (fam) -> Western Saharan (gen)
+	Western Saharan (gen) -> Kanuri
+	Western Saharan (gen) -> Tubu
+	Western Saharan (gen) -> Kanembu
+	Nakh-Daghestanian (fam) -> Lezgic (gen)
+	Lezgic (gen) -> Lezgian
+	Lezgic (gen) -> Rutul
+	Lezgic (gen) -> Kryz
+	Lezgic (gen) -> Archi
+	Lezgic (gen) -> Udi
+	Nakh-Daghestanian (fam) -> Avar-Andic-Tsezic (gen)
+	Avar-Andic-Tsezic (gen) -> Hunzib
+	Avar-Andic-Tsezic (gen) -> Avar
+	Avar-Andic-Tsezic (gen) -> Tsez
+	Nakh-Daghestanian (fam) -> Lak-Dargwa (gen)
+	Lak-Dargwa (gen) -> Dargwa
+	Nakh-Daghestanian (fam) -> Nakh (gen)
+	Nakh (gen) -> Tsova-Tush
+	Nakh (gen) -> Chechen
+	Eskimo-Aleut (fam) -> Aleut (gen)
+	Aleut (gen) -> Aleut
+	Uto-Aztecan (fam) -> California Uto-Aztecan (gen)
+	California Uto-Aztecan (gen) -> Cahuilla
+	California Uto-Aztecan (gen) -> Cupeño
+	Uto-Aztecan (fam) -> Tarahumaran (gen)
+	Tarahumaran (gen) -> Tarahumara (Central)
+	Tarahumaran (gen) -> Tarahumara (Western)
+	Uto-Aztecan (fam) -> Corachol (gen)
+	Corachol (gen) -> Huichol
+	Uto-Aztecan (fam) -> Cahita (gen)
+	Cahita (gen) -> Yaqui
+	Cahita (gen) -> Eudeve
+	Uto-Aztecan (fam) -> Tepiman (gen)
+	Tepiman (gen) -> Pima Bajo
+	Tepiman (gen) -> Nevome
+	Uto-Aztecan (fam) -> Hopi (gen)
+	Hopi (gen) -> Hopi
+	Uto-Aztecan (fam) -> Numic (gen)
+	Numic (gen) -> Tümpisa Shoshone
+	Numic (gen) -> Mono (in United States)
+	Numic (gen) -> Shoshone
+	Numic (gen) -> Paiute (Northern)
+	Numic (gen) -> Comanche
 	Lower Sepik-Ramu (fam) -> Lower Sepik (gen)
 	Lower Sepik (gen) -> Chambri
+	Lower Sepik-Ramu (fam) -> Botin (gen)
+	Botin (gen) -> Kambot
 	Lower Sepik-Ramu (fam) -> Mikarew (gen)
 	Mikarew (gen) -> Kire
 	Lower Sepik-Ramu (fam) -> Annaberg (gen)
 	Annaberg (gen) -> Rao
-	Lower Sepik-Ramu (fam) -> Botin (gen)
-	Botin (gen) -> Kambot
-	Washo (fam) -> Washo (gen)
-	Washo (gen) -> Washo
-	Ainu (fam) -> Ainu (gen)
-	Ainu (gen) -> Ainu
-	Bangime (fam) -> Bangime (gen)
-	Bangime (gen) -> Bangime
-	Cholon (fam) -> Cholon (gen)
-	Cholon (gen) -> Cholón
-	Uru-Chipaya (fam) -> Uru-Chipaya (gen)
-	Uru-Chipaya (gen) -> Chipaya
-	Mande (fam) -> Eastern Mande (gen)
-	Eastern Mande (gen) -> Wan
-	Eastern Mande (gen) -> Dan
-	Eastern Mande (gen) -> Boko
-	Eastern Mande (gen) -> Busa
-	Eastern Mande (gen) -> Mano
-	Mande (fam) -> Western Mande (gen)
-	Western Mande (gen) -> Mandinka (Gambian)
-	Western Mande (gen) -> Bambara
-	Western Mande (gen) -> Soninke
-	Western Mande (gen) -> Vai
-	Western Mande (gen) -> Mende
-	Western Mande (gen) -> Susu
-	Western Mande (gen) -> Xasonga
-	Western Mande (gen) -> Mauka
-	Western Mande (gen) -> Maninka (Western)
-	Wagiman (fam) -> Wagiman (gen)
-	Wagiman (gen) -> Wagiman
-	Uto-Aztecan (fam) -> Corachol (gen)
-	Corachol (gen) -> Huichol
-	Uto-Aztecan (fam) -> Numic (gen)
-	Numic (gen) -> Comanche
-	Numic (gen) -> Paiute (Northern)
-	Numic (gen) -> Tümpisa Shoshone
-	Numic (gen) -> Mono (in United States)
-	Numic (gen) -> Shoshone
-	Uto-Aztecan (fam) -> Tarahumaran (gen)
-	Tarahumaran (gen) -> Tarahumara (Western)
-	Tarahumaran (gen) -> Tarahumara (Central)
-	Uto-Aztecan (fam) -> Hopi (gen)
-	Hopi (gen) -> Hopi
-	Uto-Aztecan (fam) -> Cahita (gen)
-	Cahita (gen) -> Yaqui
-	Cahita (gen) -> Eudeve
-	Uto-Aztecan (fam) -> California Uto-Aztecan (gen)
-	California Uto-Aztecan (gen) -> Cahuilla
-	California Uto-Aztecan (gen) -> Cupeño
-	Jabutí (fam) -> Jabutí (gen)
-	Jabutí (gen) -> Jabutí
-	Siouan (fam) -> Core Siouan (gen)
-	Core Siouan (gen) -> Osage
-	Core Siouan (gen) -> Mandan
-	Core Siouan (gen) -> Omaha
-	Core Siouan (gen) -> Crow
-	Core Siouan (gen) -> Lakhota
-	Core Siouan (gen) -> Tutelo
-	Core Siouan (gen) -> Hidatsa
-	Core Siouan (gen) -> Biloxi
-	Siouan (fam) -> Catawban (gen)
-	Catawban (gen) -> Catawba
-	Dogon (fam) -> Dogon (gen)
-	Dogon (gen) -> Donno So
-	Dogon (gen) -> Jamsay
-	Djingili (gen) -> Djingili
-	Coahuiltecan (fam) -> Coahuiltecan (gen)
-	Coahuiltecan (gen) -> Coahuilteco
-	Left May (fam) -> Left May (gen)
-	Left May (gen) -> Owininga
-	Indo-European (fam) -> Nuristani (gen)
-	Nuristani (gen) -> Prasuni
-	Indo-European (fam) -> Slavic (gen)
-	Slavic (gen) -> Sorbian
-	Indo-European (fam) -> Iranian (gen)
-	Iranian (gen) -> Kurdish (Central)
-	Iranian (gen) -> Ossetic
-	Iranian (gen) -> Pashto
-	Iranian (gen) -> Persian
-	Iranian (gen) -> Tajik
-	Iranian (gen) -> Zazaki
-	Iranian (gen) -> Wakhi
-	Indo-European (fam) -> Indic (gen)
-	Indic (gen) -> Shekhawati
-	Indic (gen) -> Marathi
-	Indic (gen) -> Oriya
-	Indic (gen) -> Gujarati
-	Indic (gen) -> Khowar
-	Indic (gen) -> Hindi
-	Indic (gen) -> Savi
-	Indic (gen) -> Magahi
-	Indic (gen) -> Kumauni
-	Indic (gen) -> Lamani
-	Indic (gen) -> Bengali
-	Indic (gen) -> Assamese
-	Indic (gen) -> Brokskat
-	Indic (gen) -> Shina
-	Indic (gen) -> Nepali
-	Indic (gen) -> Panjabi
-	Indic (gen) -> Bhojpuri
-	Indic (gen) -> Torwali
-	Indic (gen) -> Urdu
-	Indic (gen) -> Sinhala
-	Indo-European (fam) -> Armenian (gen)
-	Armenian (gen) -> Armenian (Western)
-	Yuchi (fam) -> Yuchi (gen)
-	Yuchi (gen) -> Yuchi
-	Timucua (fam) -> Timucua (gen)
-	Timucua (gen) -> Timucua
-	Turama-Kikorian (fam) -> Turama-Kikorian (gen)
-	Turama-Kikorian (gen) -> Rumu
-	Kiowa-Tanoan (fam) -> Kiowa-Tanoan (gen)
-	Kiowa-Tanoan (gen) -> Kiowa
-	East Strickland (fam) -> East Strickland (gen)
-	East Strickland (gen) -> Nomad
-	Chibchan (fam) -> Chibcha-Duit (gen)
-	Chibcha-Duit (gen) -> Muisca
-	Chibchan (fam) -> Arhuacic (gen)
-	Arhuacic (gen) -> Ika
-	Chibchan (fam) -> Talamanca (gen)
-	Talamanca (gen) -> Bribri
-	Talamanca (gen) -> Teribe
-	Chibchan (fam) -> Guaymiic (gen)
-	Guaymiic (gen) -> Ngäbere
-	Chibchan (fam) -> Kuna (gen)
-	Kuna (gen) -> Kuna
-	Chibchan (fam) -> Rama (gen)
-	Rama (gen) -> Rama
-	Dravidian (fam) -> South-Central Dravidian (gen)
-	South-Central Dravidian (gen) -> Gondi
-	South-Central Dravidian (gen) -> Kuvi
-	South-Central Dravidian (gen) -> Koya
-	South-Central Dravidian (gen) -> Telugu
-	Dravidian (fam) -> Northern Dravidian (gen)
-	Northern Dravidian (gen) -> Malto
-	Dravidian (fam) -> Central Dravidian (gen)
-	Central Dravidian (gen) -> Kolami
-	Dravidian (fam) -> Southern Dravidian (gen)
-	Southern Dravidian (gen) -> Malayalam
-	Southern Dravidian (gen) -> Tulu
-	Southern Dravidian (gen) -> Betta Kurumba
-	Southern Dravidian (gen) -> Tamil
-	Southern Dravidian (gen) -> Kannada
-	Kapixana (fam) -> Kapixana (gen)
-	Kapixana (gen) -> Kanoê
-	Yanomam (fam) -> Yanomam (gen)
-	Yanomam (gen) -> Shiriana
-	Yanomam (gen) -> Sanuma
-	Awin-Pare (fam) -> Awin-Pare (gen)
-	Awin-Pare (gen) -> Aekyom
-	Guahiban (fam) -> Guahiban (gen)
-	Guahiban (gen) -> Cuiba
-	Guahiban (gen) -> Sikuani
-	Gur (gen) -> Supyire
-	Kru (gen) -> Seme
-	Bantoid (gen) -> Tunen
-	Yareban (fam) -> Yareban (gen)
-	Yareban (gen) -> Yareba
-	Maban (fam) -> Maban (gen)
-	Maban (gen) -> Runga
-	Maban (gen) -> Maba
-	Maban (gen) -> Masalit
-	Skou (fam) -> Warapu (gen)
-	Warapu (gen) -> Barupu
-	Skou (fam) -> Western Skou (gen)
-	Western Skou (gen) -> Dumo
-	Western Skou (gen) -> Skou
-	Skou (fam) -> Krisa (gen)
-	Krisa (gen) -> I'saka
-	Skou (fam) -> Serra Hills (gen)
-	Serra Hills (gen) -> Womo
-	Border (fam) -> Border (gen)
-	Border (gen) -> Amanab
-	Border (gen) -> Awyi
-	Border (gen) -> Manem
-	Tacanan (fam) -> Tacanan (gen)
-	Tacanan (gen) -> Ese Ejja
-	Altaic (fam) -> Mongolic (gen)
-	Mongolic (gen) -> Oirat
-	Mongolic (gen) -> Bao'an
-	Mongolic (gen) -> Dagur
-	Mongolic (gen) -> Khalkha
-	Mongolic (gen) -> Mongol (Khamnigan)
-	Mongolic (gen) -> Santa
-	Mongolic (gen) -> Buriat
-	Mongolic (gen) -> Moghol
-	Mongolic (gen) -> Ordos
-	Mongolic (gen) -> Mangghuer
-	Altaic (fam) -> Tungusic (gen)
-	Tungusic (gen) -> Even
-	Tungusic (gen) -> Udihe
-	Tungusic (gen) -> Evenki
-	Tungusic (gen) -> Manchu
-	Altaic (fam) -> Turkic (gen)
-	Turkic (gen) -> Chuvash
-	Turkic (gen) -> Uyghur
-	Turkic (gen) -> Turkish
-	Turkic (gen) -> Uzbek
-	Turkic (gen) -> Azerbaijani
-	Turkic (gen) -> Noghay
-	Turkic (gen) -> Karakalpak
-	Turkic (gen) -> Tatar
-	Turkic (gen) -> Azari (Iranian)
-	Turkic (gen) -> Karachay-Balkar
-	Turkic (gen) -> Tuvan
-	Turkic (gen) -> Khalaj
-	Turkic (gen) -> Yakut
-	Turkic (gen) -> Turkmen
-	Moraori (fam) -> Moraori (gen)
-	Moraori (gen) -> Moraori
-	Kayagar (fam) -> Kayagar (gen)
-	Kayagar (gen) -> Tamagario
-	Kolopom (fam) -> Kolopom (gen)
-	Kolopom (gen) -> Riantana
-	Kolopom (gen) -> Kimaghama
-	Karkar-Yuri (fam) -> Karkar-Yuri (gen)
-	Karkar-Yuri (gen) -> Karkar-Yuri
-	Rashad (gen) -> Rashad
-	Rashad (gen) -> Orig
-	Mombum (fam) -> Mombum (gen)
-	Mombum (gen) -> Mombum
+	Nambikuaran (fam) -> Nambikuaran (gen)
+	Nambikuaran (gen) -> Nambikuára (Southern)
+	Gogodala-Suki (fam) -> Gogodala (gen)
+	Gogodala (gen) -> Gogodala
+	Gogodala-Suki (fam) -> Suki (gen)
+	Suki (gen) -> Suki
+	Kunza (fam) -> Kunza (gen)
+	Kunza (gen) -> Atacameño
 	Western Daly (fam) -> Bringen (gen)
 	Bringen (gen) -> Maringarr
 	Bringen (gen) -> Marrithiyel
 	Western Daly (fam) -> Wagaydy (gen)
 	Wagaydy (gen) -> Maranungku
-	Korean (fam) -> Korean (gen)
-	Korean (gen) -> Korean
-	Zuni (fam) -> Zuni (gen)
-	Zuni (gen) -> Zuni
-	Kwomtari-Baibai (fam) -> Fas (gen)
-	Fas (gen) -> Momu
-	Kwomtari-Baibai (fam) -> Kwomtari (gen)
-	Kwomtari (gen) -> Kwomtari
-	Muskogean (fam) -> Muskogean (gen)
-	Muskogean (gen) -> Seminole
-	Muskogean (gen) -> Mikasuki
-	Muskogean (gen) -> Koasati
-	Muskogean (gen) -> Choctaw
-	Kusunda (fam) -> Kusunda (gen)
-	Kusunda (gen) -> Kusunda
-	Eleman (fam) -> Tate (gen)
-	Tate (gen) -> Kaki Ae
-	Iranxe (fam) -> Iranxe (gen)
-	Iranxe (gen) -> Iranxe
-	Nivkh (fam) -> Nivkh (gen)
-	Nivkh (gen) -> Nivkh
-	Panoan (fam) -> Panoan (gen)
-	Panoan (gen) -> Matis
-	Panoan (gen) -> Matsés
-	Panoan (gen) -> Yaminahua
-	Panoan (gen) -> Cashibo
-	Panoan (gen) -> Shipibo-Konibo
-	Panoan (gen) -> Sharanahua
-	Tor-Orya (fam) -> Orya (gen)
-	Orya (gen) -> Orya
-	Tucanoan (fam) -> Tucanoan (gen)
-	Tucanoan (gen) -> Desano
-	Tucanoan (gen) -> Tuyuca
-	Tucanoan (gen) -> Retuarã
-	Takelma (fam) -> Takelma (gen)
-	Takelma (gen) -> Takelma
-	Haida (fam) -> Haida (gen)
-	Haida (gen) -> Haida
-	Páezan (fam) -> Páezan (gen)
-	Páezan (gen) -> Páez
-	Fur (fam) -> Fur (gen)
-	Fur (gen) -> Fur
-	Huitotoan (fam) -> Huitoto (gen)
-	Huitoto (gen) -> Huitoto (Minica)
-	Huitoto (gen) -> Huitoto (Murui)
-	Sentani (fam) -> Sentani (gen)
-	Sentani (gen) -> Tabla
-	Sentani (gen) -> Sentani
-	Mura (fam) -> Mura (gen)
-	Mura (gen) -> Pirahã
-	Sandawe (fam) -> Sandawe (gen)
-	Sandawe (gen) -> Sandawe
-	Trans-New Guinea (fam) -> Asmat-Kamoro (gen)
-	Asmat-Kamoro (gen) -> Asmat
-	Asmat-Kamoro (gen) -> Kamoro
-	Trans-New Guinea (fam) -> Awju-Dumut (gen)
-	Awju-Dumut (gen) -> Korowai
-	Awju-Dumut (gen) -> Kombai
-	Awju-Dumut (gen) -> Wambon
-	Awju-Dumut (gen) -> Pisa
-	Trans-New Guinea (fam) -> Ok (gen)
-	Ok (gen) -> Kati (in West Papua, Indonesia)
-	Ok (gen) -> Mian
-	Ok (gen) -> Telefol
-	Trans-New Guinea (fam) -> Mairasi-Tanahmerah (gen)
-	Mairasi-Tanahmerah (gen) -> Mairasi
-	Trans-New Guinea (fam) -> Binanderean (gen)
-	Binanderean (gen) -> Guhu-Samane
-	Binanderean (gen) -> Binandere
-	Binanderean (gen) -> Suena
-	Binanderean (gen) -> Orokaiva
-	Trans-New Guinea (fam) -> Angan (gen)
-	Angan (gen) -> Hamtai
-	Angan (gen) -> Menya
-	Trans-New Guinea (fam) -> Koiarian (gen)
-	Koiarian (gen) -> Barai
-	Koiarian (gen) -> Koiali (Mountain)
-	Koiarian (gen) -> Koita
-	Trans-New Guinea (fam) -> Kutubuan (gen)
-	Kutubuan (gen) -> Foe
-	Trans-New Guinea (fam) -> Engan (gen)
-	Engan (gen) -> Kyaka
-	Engan (gen) -> Kewa
-	Trans-New Guinea (fam) -> Chimbu (gen)
-	Chimbu (gen) -> Tabare
-	Chimbu (gen) -> Salt-Yui
-	Chimbu (gen) -> Kuman
-	Chimbu (gen) -> Golin
-	Chimbu (gen) -> Wahgi
-	Trans-New Guinea (fam) -> Mek (gen)
-	Mek (gen) -> Una
-	Mek (gen) -> Yale (Kosarek)
-	Mek (gen) -> Eipo
-	Trans-New Guinea (fam) -> Wissel Lakes-Kemandoga (gen)
-	Wissel Lakes-Kemandoga (gen) -> Ekari
-	Wissel Lakes-Kemandoga (gen) -> Moni
-	Trans-New Guinea (fam) -> Madang (gen)
-	Madang (gen) -> Amele
-	Madang (gen) -> Usan
-	Madang (gen) -> Waskia
-	Madang (gen) -> Nend
-	Madang (gen) -> Kobon
-	Madang (gen) -> Siroi
-	Madang (gen) -> Bongu
-	Madang (gen) -> Tauya
-	Trans-New Guinea (fam) -> Goilalan (gen)
-	Goilalan (gen) -> Kunimaipa
-	Trans-New Guinea (fam) -> Dani (gen)
-	Dani (gen) -> Dani (Lower Grand Valley)
-	Trans-New Guinea (fam) -> Momuna (gen)
-	Momuna (gen) -> Momuna
-	Trans-New Guinea (fam) -> Eastern Highlands (gen)
-	Eastern Highlands (gen) -> Yagaria
-	Eastern Highlands (gen) -> Gahuku
-	Eastern Highlands (gen) -> Hua
-	Eastern Highlands (gen) -> Agarabi
-	Eastern Highlands (gen) -> Fore
-	Eastern Highlands (gen) -> Tairora
-	Eastern Highlands (gen) -> Siane
-	Eastern Highlands (gen) -> Gadsup
-	Eastern Highlands (gen) -> Usarufa
-	Eastern Highlands (gen) -> Awa
-	Trans-New Guinea (fam) -> Mailuan (gen)
-	Mailuan (gen) -> Magi
-	Trans-New Guinea (fam) -> Duna (gen)
-	Duna (gen) -> Duna
-	Trans-New Guinea (fam) -> Finisterre-Huon (gen)
-	Finisterre-Huon (gen) -> Nankina
-	Finisterre-Huon (gen) -> Rawa
-	Finisterre-Huon (gen) -> Nabak
-	Kartvelian (fam) -> Kartvelian (gen)
-	Kartvelian (gen) -> Georgian
-	Songhay (fam) -> Songhay (gen)
-	Songhay (gen) -> Koyraboro Senni
-	Kiwaian (fam) -> Kiwaian (gen)
-	Kiwaian (gen) -> Kiwai
-	Mangrida (fam) -> Burarran (gen)
-	Burarran (gen) -> Burarra
-	Sepik (fam) -> Yellow River (gen)
-	Yellow River (gen) -> Namia
-	Sepik (fam) -> Upper Sepik (gen)
-	Upper Sepik (gen) -> Iwam
-	Upper Sepik (gen) -> Abau
-	Sepik (fam) -> Ram (gen)
-	Ram (gen) -> Awtuw
-	Sepik (fam) -> Sepik Hill (gen)
-	Sepik Hill (gen) -> Sare
-	Sepik Hill (gen) -> Alamblak
-	Sepik (fam) -> Middle Sepik (gen)
-	Middle Sepik (gen) -> Hanga Hundi
-	Middle Sepik (gen) -> Ambulas
-	Middle Sepik (gen) -> Kwoma
-	Middle Sepik (gen) -> Iatmul
-	Tupian (fam) -> Ramarama (gen)
-	Ramarama (gen) -> Karó (Arára)
-	Tupian (fam) -> Tupari (gen)
-	Tupari (gen) -> Mekens
-	Tupian (fam) -> Tupi-Guaraní (gen)
-	Tupi-Guaraní (gen) -> Kamaiurá
-	Tupi-Guaraní (gen) -> Urubú-Kaapor
-	Tupi-Guaraní (gen) -> Sirionó
-	Tupi-Guaraní (gen) -> Kayabí
-	Tupi-Guaraní (gen) -> Wayampi
-	Tupi-Guaraní (gen) -> Tapieté
-	Tupi-Guaraní (gen) -> Émérillon
-	Tupian (fam) -> Munduruku (gen)
-	Munduruku (gen) -> Mundurukú
-	Morehead and Upper Maro Rivers (fam) -> Morehead and Upper Maro Rivers (gen)
-	Morehead and Upper Maro Rivers (gen) -> Yei
-	Morehead and Upper Maro Rivers (gen) -> Kanum (Bädi)
-	Yukaghir (fam) -> Yukaghir (gen)
-	Yukaghir (gen) -> Yukaghir (Kolyma)
-	Yukaghir (gen) -> Yukaghir (Tundra)
-	East Bougainville (fam) -> East Bougainville (gen)
-	East Bougainville (gen) -> Nasioi
-	Afro-Asiatic (fam) -> North Omotic (gen)
-	North Omotic (gen) -> Gamo
-	North Omotic (gen) -> Gimira
-	North Omotic (gen) -> Wolaytta
-	North Omotic (gen) -> Zayse
-	Afro-Asiatic (fam) -> Southern Cushitic (gen)
-	Southern Cushitic (gen) -> Iraqw
-	Afro-Asiatic (fam) -> South Omotic (gen)
-	South Omotic (gen) -> Dime
-	Afro-Asiatic (fam) -> Beja (gen)
-	Beja (gen) -> Beja
-	Afro-Asiatic (fam) -> Highland East Cushitic (gen)
-	Highland East Cushitic (gen) -> Sidaama
-	Afro-Asiatic (fam) -> Lowland East Cushitic (gen)
-	Lowland East Cushitic (gen) -> Dhaasanac
-	Lowland East Cushitic (gen) -> Qafar
-	Lowland East Cushitic (gen) -> Arbore
-	Lowland East Cushitic (gen) -> Oromo (Harar)
-	Lowland East Cushitic (gen) -> Somali
-	Lowland East Cushitic (gen) -> Oromo (Waata)
-	Afro-Asiatic (fam) -> Semitic (gen)
-	Semitic (gen) -> Soddo
-	Semitic (gen) -> Neo-Aramaic (Arbel Jewish)
-	Semitic (gen) -> Chaha
-	Semitic (gen) -> Amharic
-	Semitic (gen) -> Tigrinya
-	Semitic (gen) -> Tigré
-	Afro-Asiatic (fam) -> Central Cushitic (gen)
-	Central Cushitic (gen) -> Kemant
-	Eastern Daly (fam) -> Eastern Daly (gen)
-	Eastern Daly (gen) -> Matngele
-	Cariban (fam) -> Cariban (gen)
-	Cariban (gen) -> Carib
-	Cariban (gen) -> Carib (De'kwana)
-	Basque (fam) -> Basque (gen)
-	Basque (gen) -> Basque
-	Bosavi (fam) -> Bosavi (gen)
-	Bosavi (gen) -> Edolo
-	Bosavi (gen) -> Kaluli
+	Macro-Ge (fam) -> Ge-Kaingang (gen)
+	Ge-Kaingang (gen) -> Apinayé
+	Ge-Kaingang (gen) -> Krahô
+	Ge-Kaingang (gen) -> Xerénte
+	Ge-Kaingang (gen) -> Canela-Krahô
+	Ge-Kaingang (gen) -> Kaingang
+	Ge-Kaingang (gen) -> Kayapó
 	Macro-Ge (fam) -> Maxakalí (gen)
 	Maxakalí (gen) -> Maxakalí
+	Macro-Ge (fam) -> Rikbaktsa (gen)
+	Rikbaktsa (gen) -> Rikbaktsa
 	Macro-Ge (fam) -> Botocudo (gen)
 	Botocudo (gen) -> Krenak
 	Macro-Ge (fam) -> Karajá (gen)
 	Karajá (gen) -> Karajá
-	Macro-Ge (fam) -> Rikbaktsa (gen)
-	Rikbaktsa (gen) -> Rikbaktsa
-	Macro-Ge (fam) -> Ge-Kaingang (gen)
-	Ge-Kaingang (gen) -> Kaingang
-	Ge-Kaingang (gen) -> Xerénte
-	Ge-Kaingang (gen) -> Kayapó
-	Ge-Kaingang (gen) -> Apinayé
-	Ge-Kaingang (gen) -> Canela-Krahô
-	Ge-Kaingang (gen) -> Krahô
-	Great Andamanese (fam) -> Great Andamanese (gen)
-	Great Andamanese (gen) -> Great Andamanese
-	Kunza (fam) -> Kunza (gen)
-	Kunza (gen) -> Atacameño
-	Kwerba (fam) -> Kwerba (gen)
-	Kwerba (gen) -> Isirawa
-	Bulaka River (fam) -> Bulaka River (gen)
-	Bulaka River (gen) -> Maklew
-	Bulaka River (gen) -> Yelmek
+	Huitotoan (fam) -> Huitoto (gen)
+	Huitoto (gen) -> Huitoto (Murui)
+	Huitoto (gen) -> Huitoto (Minica)
+	Chibchan (fam) -> Chibcha-Duit (gen)
+	Chibcha-Duit (gen) -> Muisca
+	Chibchan (fam) -> Kuna (gen)
+	Kuna (gen) -> Kuna
+	Chibchan (fam) -> Talamanca (gen)
+	Talamanca (gen) -> Teribe
+	Talamanca (gen) -> Bribri
+	Chibchan (fam) -> Arhuacic (gen)
+	Arhuacic (gen) -> Ika
+	Chibchan (fam) -> Rama (gen)
+	Rama (gen) -> Rama
+	Chibchan (fam) -> Guaymiic (gen)
+	Guaymiic (gen) -> Ngäbere
+	Bosavi (fam) -> Bosavi (gen)
+	Bosavi (gen) -> Edolo
+	Bosavi (gen) -> Kaluli
+	Altaic (fam) -> Tungusic (gen)
+	Tungusic (gen) -> Udihe
+	Tungusic (gen) -> Manchu
+	Tungusic (gen) -> Even
+	Tungusic (gen) -> Evenki
+	Altaic (fam) -> Turkic (gen)
+	Turkic (gen) -> Karakalpak
+	Turkic (gen) -> Tatar
+	Turkic (gen) -> Azerbaijani
+	Turkic (gen) -> Tuvan
+	Turkic (gen) -> Turkmen
+	Turkic (gen) -> Chuvash
+	Turkic (gen) -> Uzbek
+	Turkic (gen) -> Azari (Iranian)
+	Turkic (gen) -> Noghay
+	Turkic (gen) -> Turkish
+	Turkic (gen) -> Uyghur
+	Turkic (gen) -> Karachay-Balkar
+	Turkic (gen) -> Yakut
+	Turkic (gen) -> Khalaj
+	Altaic (fam) -> Mongolic (gen)
+	Mongolic (gen) -> Buriat
+	Mongolic (gen) -> Moghol
+	Mongolic (gen) -> Ordos
+	Mongolic (gen) -> Mongol (Khamnigan)
+	Mongolic (gen) -> Khalkha
+	Mongolic (gen) -> Oirat
+	Mongolic (gen) -> Dagur
+	Mongolic (gen) -> Santa
+	Mongolic (gen) -> Mangghuer
+	Mongolic (gen) -> Bao'an
+	Mura (fam) -> Mura (gen)
+	Mura (gen) -> Pirahã
+	Guahiban (fam) -> Guahiban (gen)
+	Guahiban (gen) -> Sikuani
+	Guahiban (gen) -> Cuiba
+	Iranian (gen) -> Persian
+	Iranian (gen) -> Kurdish (Central)
+	Iranian (gen) -> Pashto
+	Iranian (gen) -> Ossetic
+	Iranian (gen) -> Zazaki
+	Iranian (gen) -> Wakhi
+	Iranian (gen) -> Tajik
+	Armenian (gen) -> Armenian (Western)
+	Indic (gen) -> Urdu
+	Indic (gen) -> Assamese
+	Indic (gen) -> Lamani
+	Indic (gen) -> Bengali
+	Indic (gen) -> Brokskat
+	Indic (gen) -> Nepali
+	Indic (gen) -> Magahi
+	Indic (gen) -> Savi
+	Indic (gen) -> Hindi
+	Indic (gen) -> Sinhala
+	Indic (gen) -> Kumauni
+	Indic (gen) -> Khowar
+	Indic (gen) -> Gujarati
+	Indic (gen) -> Panjabi
+	Indic (gen) -> Bhojpuri
+	Indic (gen) -> Oriya
+	Indic (gen) -> Shekhawati
+	Indic (gen) -> Torwali
+	Indic (gen) -> Marathi
+	Indic (gen) -> Shina
+	Nuristani (gen) -> Prasuni
+	West Bomberai (fam) -> West Bomberai (gen)
+	West Bomberai (gen) -> Baham
+	West Bomberai (gen) -> Iha
+	Burushaski (fam) -> Burushaski (gen)
+	Burushaski (gen) -> Burushaski
+	Kolopom (fam) -> Kolopom (gen)
+	Kolopom (gen) -> Kimaghama
+	Kolopom (gen) -> Riantana
+	South Andamanese (fam) -> South Andamanese (gen)
+	South Andamanese (gen) -> Jarawa (in Andamans)
+	South Andamanese (gen) -> Onge
+	Kayagar (fam) -> Kayagar (gen)
+	Kayagar (gen) -> Tamagario
+	Coahuiltecan (fam) -> Coahuiltecan (gen)
+	Coahuiltecan (gen) -> Coahuilteco
+	Dagan (fam) -> Dagan (gen)
+	Dagan (gen) -> Daga
+	East Strickland (fam) -> East Strickland (gen)
+	East Strickland (gen) -> Nomad
+	Morehead and Upper Maro Rivers (fam) -> Morehead and Upper Maro Rivers (gen)
+	Morehead and Upper Maro Rivers (gen) -> Kanum (Bädi)
+	Morehead and Upper Maro Rivers (gen) -> Yei
 	Japanese (fam) -> Japanese (gen)
 	Japanese (gen) -> Japanese
-	Chitimacha (fam) -> Chitimacha (gen)
-	Chitimacha (gen) -> Chitimacha
-	Kunama (fam) -> Kunama (gen)
-	Kunama (gen) -> Kunama
-	Pama-Nyungan (fam) -> Northern Pama-Nyungan (gen)
-	Northern Pama-Nyungan (gen) -> Kuuk Thaayorre
-	Northern Pama-Nyungan (gen) -> Uradhi
-	Northern Pama-Nyungan (gen) -> Margany
-	Northern Pama-Nyungan (gen) -> Anguthimri
-	Northern Pama-Nyungan (gen) -> Kalkatungu
-	Northern Pama-Nyungan (gen) -> Djabugay
-	Northern Pama-Nyungan (gen) -> Guugu Yimidhirr
-	Northern Pama-Nyungan (gen) -> Dharumbal
-	Northern Pama-Nyungan (gen) -> Yidiny
-	Northern Pama-Nyungan (gen) -> Wik Munkan
-	Northern Pama-Nyungan (gen) -> Kuku-Yalanji
-	Pama-Nyungan (fam) -> Central Pama-Nyungan (gen)
-	Central Pama-Nyungan (gen) -> Innamincka
-	Central Pama-Nyungan (gen) -> Arrernte (Mparntwe)
-	Central Pama-Nyungan (gen) -> Alyawarra
-	Central Pama-Nyungan (gen) -> Arabana
-	Central Pama-Nyungan (gen) -> Diyari
-	Pama-Nyungan (fam) -> Western Pama-Nyungan (gen)
-	Western Pama-Nyungan (gen) -> Ngaanyatjarra
-	Western Pama-Nyungan (gen) -> Badimaya
-	Western Pama-Nyungan (gen) -> Djapu
-	Western Pama-Nyungan (gen) -> Warluwara
-	Western Pama-Nyungan (gen) -> Gugada
-	Northwest Caucasian (fam) -> Northwest Caucasian (gen)
-	Northwest Caucasian (gen) -> Kabardian
-	Northwest Caucasian (gen) -> Adyghe (Abzakh)
-	Northwest Caucasian (gen) -> Ubykh
-	Northwest Caucasian (gen) -> Abkhaz
-	Western Fly (fam) -> Western Fly (gen)
-	Western Fly (gen) -> Meryam Mir
-	Gogodala-Suki (fam) -> Suki (gen)
-	Suki (gen) -> Suki
-	Gogodala-Suki (fam) -> Gogodala (gen)
-	Gogodala (gen) -> Gogodala
-	Nakh-Daghestanian (fam) -> Lezgic (gen)
-	Lezgic (gen) -> Udi
-	Lezgic (gen) -> Lezgian
-	Lezgic (gen) -> Archi
-	Lezgic (gen) -> Kryz
-	Lezgic (gen) -> Rutul
-	Nakh-Daghestanian (fam) -> Lak-Dargwa (gen)
-	Lak-Dargwa (gen) -> Dargwa
-	Nakh-Daghestanian (fam) -> Avar-Andic-Tsezic (gen)
-	Avar-Andic-Tsezic (gen) -> Hunzib
-	Avar-Andic-Tsezic (gen) -> Avar
-	Avar-Andic-Tsezic (gen) -> Tsez
-	Nakh-Daghestanian (fam) -> Nakh (gen)
-	Nakh (gen) -> Tsova-Tush
-	Nakh (gen) -> Chechen
-	Northern Daly (fam) -> Northern Daly (gen)
-	Northern Daly (gen) -> Tyeraity
-	Munda (gen) -> Korku
-	Munda (gen) -> Mundari
-	Munda (gen) -> Santali
-	Munda (gen) -> Bhumij
-	Quechuan (fam) -> Quechuan (gen)
-	Quechuan (gen) -> Quechua (Imbabura)
-	Quechuan (gen) -> Quechua (Huallaga)
-	Na-Dene (fam) -> Tlingit (gen)
-	Tlingit (gen) -> Tlingit
-	Na-Dene (fam) -> Athapaskan (gen)
-	Athapaskan (gen) -> Slave
-	Athapaskan (gen) -> Sarcee
-	Athapaskan (gen) -> Chipewyan
-	Athapaskan (gen) -> Apache (Western)
-	Athapaskan (gen) -> Navajo
-	Yámana (fam) -> Yámana (gen)
-	Yámana (gen) -> Yahgan
+	Teberan-Pawaian (fam) -> Teberan (gen)
+	Teberan (gen) -> Folopa
+	Teberan-Pawaian (fam) -> Pawaian (gen)
+	Pawaian (gen) -> Pawaian
+	Marienberg (gen) -> Kamasau
+	Awin-Pare (fam) -> Awin-Pare (gen)
+	Awin-Pare (gen) -> Aekyom
+	Aymaran (fam) -> Aymaran (gen)
+	Aymaran (gen) -> Aymara (Central)
+	Tupian (fam) -> Tupi-Guaraní (gen)
+	Tupi-Guaraní (gen) -> Sirionó
+	Tupi-Guaraní (gen) -> Émérillon
+	Tupi-Guaraní (gen) -> Kayabí
+	Tupi-Guaraní (gen) -> Urubú-Kaapor
+	Tupi-Guaraní (gen) -> Tapieté
+	Tupi-Guaraní (gen) -> Wayampi
+	Tupi-Guaraní (gen) -> Kamaiurá
+	Tupian (fam) -> Ramarama (gen)
+	Ramarama (gen) -> Karó (Arára)
+	Tupian (fam) -> Munduruku (gen)
+	Munduruku (gen) -> Mundurukú
+	Tupian (fam) -> Tupari (gen)
+	Tupari (gen) -> Mekens
 	Betoi (fam) -> Betoi (gen)
 	Betoi (gen) -> Betoi
-	Hokan (fam) -> Yuman (gen)
-	Yuman (gen) -> Tiipay (Jamul)
-	Yuman (gen) -> Hualapai
-	Yuman (gen) -> Maricopa
-	Yuman (gen) -> Kiliwa
-	Yuman (gen) -> Diegueño (Mesa Grande)
-	Hokan (fam) -> Pomoan (gen)
-	Pomoan (gen) -> Pomo (Eastern)
-	Pomoan (gen) -> Pomo (Southeastern)
-	Hokan (fam) -> Seri (gen)
-	Seri (gen) -> Seri
+	Mombum (fam) -> Mombum (gen)
+	Mombum (gen) -> Mombum
+	Maiduan (gen) -> Maidu (Northeast)
 	Natchez (fam) -> Natchez (gen)
 	Natchez (gen) -> Natchez
-	Yale (fam) -> Yale (gen)
-	Yale (gen) -> Nagatman
+	Karkar-Yuri (fam) -> Karkar-Yuri (gen)
+	Karkar-Yuri (gen) -> Karkar-Yuri
+	Wappo-Yukian (fam) -> Wappo (gen)
+	Wappo (gen) -> Wappo
+	Takelma (fam) -> Takelma (gen)
+	Takelma (gen) -> Takelma
+	Skou (fam) -> Western Skou (gen)
+	Western Skou (gen) -> Dumo
+	Western Skou (gen) -> Skou
+	Skou (fam) -> Krisa (gen)
+	Krisa (gen) -> I'saka
+	Skou (fam) -> Warapu (gen)
+	Warapu (gen) -> Barupu
+	Skou (fam) -> Serra Hills (gen)
+	Serra Hills (gen) -> Womo
+	Sandawe (fam) -> Sandawe (gen)
+	Sandawe (gen) -> Sandawe
+	Marind (fam) -> Marind Proper (gen)
+	Marind Proper (gen) -> Zimakani
+	Marind Proper (gen) -> Marind
+	Marind Proper (gen) -> Boazi
+	Marind Proper (gen) -> Yaqay
+	Chukotko-Kamchatkan (fam) -> Southern Chukotko-Kamchatkan (gen)
+	Southern Chukotko-Kamchatkan (gen) -> Itelmen
+	Chukotko-Kamchatkan (fam) -> Northern Chukotko-Kamchatkan (gen)
+	Northern Chukotko-Kamchatkan (gen) -> Koryak
+	Kusunda (fam) -> Kusunda (gen)
+	Kusunda (gen) -> Kusunda
 	Timor-Alor-Pantar (fam) -> Makasae-Fataluku-Oirata (gen)
 	Makasae-Fataluku-Oirata (gen) -> Makasae
 	Timor-Alor-Pantar (fam) -> Greater Alor (gen)
 	Greater Alor (gen) -> Adang
 	Greater Alor (gen) -> Abui
-	West Bomberai (fam) -> West Bomberai (gen)
-	West Bomberai (gen) -> Baham
-	West Bomberai (gen) -> Iha
-	Marienberg (gen) -> Kamasau
+	Kapixana (fam) -> Kapixana (gen)
+	Kapixana (gen) -> Kanoê
+	Basque (fam) -> Basque (gen)
+	Basque (gen) -> Basque
+	Nivkh (fam) -> Nivkh (gen)
+	Nivkh (gen) -> Nivkh
+	Ainu (fam) -> Ainu (gen)
+	Ainu (gen) -> Ainu
+	Samoyedic (gen) -> Nganasan
+	Samoyedic (gen) -> Enets
+	Samoyedic (gen) -> Selkup
+	Samoyedic (gen) -> Kamass
+	Samoyedic (gen) -> Nenets
+	Ugric (gen) -> Khanty
+	Ugric (gen) -> Mansi
+	Bangime (fam) -> Bangime (gen)
+	Bangime (gen) -> Bangime
+	Choco (fam) -> Choco (gen)
+	Choco (gen) -> Epena Pedee
+	Chitimacha (fam) -> Chitimacha (gen)
+	Chitimacha (gen) -> Chitimacha
+	Tucanoan (fam) -> Tucanoan (gen)
+	Tucanoan (gen) -> Tuyuca
+	Tucanoan (gen) -> Desano
+	Tucanoan (gen) -> Retuarã
+	Afro-Asiatic (fam) -> Semitic (gen)
+	Semitic (gen) -> Neo-Aramaic (Arbel Jewish)
+	Semitic (gen) -> Soddo
+	Semitic (gen) -> Amharic
+	Semitic (gen) -> Chaha
+	Semitic (gen) -> Tigré
+	Semitic (gen) -> Tigrinya
+	Afro-Asiatic (fam) -> Highland East Cushitic (gen)
+	Highland East Cushitic (gen) -> Sidaama
+	Afro-Asiatic (fam) -> Lowland East Cushitic (gen)
+	Lowland East Cushitic (gen) -> Somali
+	Lowland East Cushitic (gen) -> Qafar
+	Lowland East Cushitic (gen) -> Oromo (Harar)
+	Lowland East Cushitic (gen) -> Oromo (Waata)
+	Lowland East Cushitic (gen) -> Arbore
+	Lowland East Cushitic (gen) -> Dhaasanac
+	Afro-Asiatic (fam) -> Central Cushitic (gen)
+	Central Cushitic (gen) -> Kemant
+	Afro-Asiatic (fam) -> South Omotic (gen)
+	South Omotic (gen) -> Dime
+	Afro-Asiatic (fam) -> Southern Cushitic (gen)
+	Southern Cushitic (gen) -> Iraqw
+	Afro-Asiatic (fam) -> North Omotic (gen)
+	North Omotic (gen) -> Gimira
+	North Omotic (gen) -> Wolaytta
+	North Omotic (gen) -> Gamo
+	North Omotic (gen) -> Zayse
+	Afro-Asiatic (fam) -> Beja (gen)
+	Beja (gen) -> Beja
+	Eleman (fam) -> Tate (gen)
+	Tate (gen) -> Kaki Ae
+	Yanomam (fam) -> Yanomam (gen)
+	Yanomam (gen) -> Sanuma
+	Yanomam (gen) -> Shiriana
+	Pama-Nyungan (fam) -> Northern Pama-Nyungan (gen)
+	Northern Pama-Nyungan (gen) -> Kuuk Thaayorre
+	Northern Pama-Nyungan (gen) -> Anguthimri
+	Northern Pama-Nyungan (gen) -> Margany
+	Northern Pama-Nyungan (gen) -> Uradhi
+	Northern Pama-Nyungan (gen) -> Wik Munkan
+	Northern Pama-Nyungan (gen) -> Kalkatungu
+	Northern Pama-Nyungan (gen) -> Guugu Yimidhirr
+	Northern Pama-Nyungan (gen) -> Dharumbal
+	Northern Pama-Nyungan (gen) -> Kuku-Yalanji
+	Northern Pama-Nyungan (gen) -> Djabugay
+	Northern Pama-Nyungan (gen) -> Yidiny
+	Pama-Nyungan (fam) -> Central Pama-Nyungan (gen)
+	Central Pama-Nyungan (gen) -> Diyari
+	Central Pama-Nyungan (gen) -> Arrernte (Mparntwe)
+	Central Pama-Nyungan (gen) -> Alyawarra
+	Central Pama-Nyungan (gen) -> Innamincka
+	Central Pama-Nyungan (gen) -> Arabana
+	Tunica (fam) -> Tunica (gen)
+	Tunica (gen) -> Tunica
+	Moraori (fam) -> Moraori (gen)
+	Moraori (gen) -> Moraori
+	Turama-Kikorian (fam) -> Turama-Kikorian (gen)
+	Turama-Kikorian (gen) -> Rumu
+	East Geelvink Bay (fam) -> East Geelvink Bay (gen)
+	East Geelvink Bay (gen) -> Bauzi
+	Timucua (fam) -> Timucua (gen)
+	Timucua (gen) -> Timucua
+	Kwerba (fam) -> Kwerba (gen)
+	Kwerba (gen) -> Isirawa
+	Sino-Tibetan (fam) -> Burmese-Lolo (gen)
+	Burmese-Lolo (gen) -> Jino
+	Burmese-Lolo (gen) -> Lalo
+	Burmese-Lolo (gen) -> Nusu
+	Burmese-Lolo (gen) -> Akha
+	Burmese-Lolo (gen) -> Bisu
+	Burmese-Lolo (gen) -> Maru
+	Burmese-Lolo (gen) -> Burmese
+	Burmese-Lolo (gen) -> Lahu
+	Burmese-Lolo (gen) -> Yi
+	Burmese-Lolo (gen) -> Lisu
+	Sino-Tibetan (fam) -> Jingpho (gen)
+	Jingpho (gen) -> Jingpho
+	Sino-Tibetan (fam) -> Nungish (gen)
+	Nungish (gen) -> Rawang
+	Nungish (gen) -> Anong
+	Sino-Tibetan (fam) -> Qiangic (gen)
+	Qiangic (gen) -> Pumi
+	Sino-Tibetan (fam) -> Tani (gen)
+	Tani (gen) -> Apatani
+	Tani (gen) -> Miju
+	Tani (gen) -> Bokar
+	Tani (gen) -> Mising
+	Tani (gen) -> Galo
+	Sino-Tibetan (fam) -> Dhimalic (gen)
+	Dhimalic (gen) -> Dhimal
+	Sino-Tibetan (fam) -> Bodic (gen)
+	Bodic (gen) -> Nyamkad
+	Bodic (gen) -> Jad
+	Bodic (gen) -> Johari
+	Bodic (gen) -> Tamang (Eastern)
+	Bodic (gen) -> Balti
+	Bodic (gen) -> Marchha
+	Bodic (gen) -> Tibetan (Drokpa)
+	Bodic (gen) -> Thakali
+	Bodic (gen) -> Spitian
+	Bodic (gen) -> Purki
+	Bodic (gen) -> Rang Pas
+	Bodic (gen) -> Kanashi
+	Bodic (gen) -> Pattani
+	Bodic (gen) -> Bunan
+	Bodic (gen) -> Kham (Tibetan) (Nangchen)
+	Bodic (gen) -> Ladakhi
+	Bodic (gen) -> Chaudangsi
+	Bodic (gen) -> Tod
+	Bodic (gen) -> Tibetan (Modern Literary)
+	Bodic (gen) -> Tinani
+	Bodic (gen) -> Darma
+	Bodic (gen) -> Gurung
+	Bodic (gen) -> Kinnauri
+	Bodic (gen) -> Tibetan (Standard Spoken)
+	Bodic (gen) -> Baragaunle
+	Bodic (gen) -> Zhang-Zhung
+	Bodic (gen) -> Tshangla
+	Bodic (gen) -> Tibetan (Dingri)
+	Bodic (gen) -> Sherpa
+	Bodic (gen) -> Kham (Dege)
+	Sino-Tibetan (fam) -> Kuki-Chin (gen)
+	Kuki-Chin (gen) -> Mikir
+	Kuki-Chin (gen) -> Ao
+	Kuki-Chin (gen) -> Ralte
+	Kuki-Chin (gen) -> Lotha
+	Kuki-Chin (gen) -> Naga (Tangkhul)
+	Kuki-Chin (gen) -> Angami
+	Kuki-Chin (gen) -> Mizo
+	Kuki-Chin (gen) -> Tarao
+	Kuki-Chin (gen) -> Lai
+	Kuki-Chin (gen) -> Bawm
+	Kuki-Chin (gen) -> Naga (Mao)
+	Sino-Tibetan (fam) -> Northern Naga (gen)
+	Northern Naga (gen) -> Chang
+	Northern Naga (gen) -> Nocte
+	Sino-Tibetan (fam) -> Bodo-Garo (gen)
+	Bodo-Garo (gen) -> Garo
+	Bodo-Garo (gen) -> Kachari
+	Bodo-Garo (gen) -> Deuri
+	Bodo-Garo (gen) -> Kokborok
+	Sino-Tibetan (fam) -> rGyalrong (gen)
+	rGyalrong (gen) -> rGyalrong (Caodeng)
+	Sino-Tibetan (fam) -> Mahakiranti (gen)
+	Mahakiranti (gen) -> Athpare
+	Mahakiranti (gen) -> Kham
+	Mahakiranti (gen) -> Magar
+	Mahakiranti (gen) -> Thangmi
+	Mahakiranti (gen) -> Newari (Kathmandu)
+	Mahakiranti (gen) -> Thulung
+	Mahakiranti (gen) -> Hayu
+	Mahakiranti (gen) -> Wambule
+	Mahakiranti (gen) -> Newar (Dolakha)
+	Mahakiranti (gen) -> Camling
+	Mahakiranti (gen) -> Chepang
+	Mahakiranti (gen) -> Khaling
+	Sino-Tibetan (fam) -> Lepcha (gen)
+	Lepcha (gen) -> Lepcha
+	Sino-Tibetan (fam) -> Digaroan (gen)
+	Digaroan (gen) -> Digaro
+	Páezan (fam) -> Páezan (gen)
+	Páezan (gen) -> Páez
+	Yale (fam) -> Yale (gen)
+	Yale (gen) -> Nagatman
+	Border (fam) -> Border (gen)
+	Border (gen) -> Amanab
+	Border (gen) -> Awyi
+	Border (gen) -> Manem
+	Dravidian (fam) -> Northern Dravidian (gen)
+	Northern Dravidian (gen) -> Malto
+	Dravidian (fam) -> Southern Dravidian (gen)
+	Southern Dravidian (gen) -> Kannada
+	Southern Dravidian (gen) -> Malayalam
+	Southern Dravidian (gen) -> Betta Kurumba
+	Southern Dravidian (gen) -> Tulu
+	Southern Dravidian (gen) -> Tamil
+	Dravidian (fam) -> Central Dravidian (gen)
+	Central Dravidian (gen) -> Kolami
+	Dravidian (fam) -> South-Central Dravidian (gen)
+	South-Central Dravidian (gen) -> Kuvi
+	South-Central Dravidian (gen) -> Gondi
+	South-Central Dravidian (gen) -> Koya
+	South-Central Dravidian (gen) -> Telugu
+	Shabo (fam) -> Shabo (gen)
+	Shabo (gen) -> Shabo
+	Quechuan (fam) -> Quechuan (gen)
+	Quechuan (gen) -> Quechua (Imbabura)
+	Quechuan (gen) -> Quechua (Huallaga)
+	Zuni (fam) -> Zuni (gen)
+	Zuni (gen) -> Zuni
+	Songhay (fam) -> Songhay (gen)
+	Songhay (gen) -> Koyraboro Senni
+	Munda (gen) -> Mundari
+	Munda (gen) -> Santali
+	Munda (gen) -> Korku
+	Munda (gen) -> Bhumij
+	Iranxe (fam) -> Iranxe (gen)
+	Iranxe (gen) -> Iranxe
+	Eastern Daly (fam) -> Eastern Daly (gen)
+	Eastern Daly (gen) -> Matngele
+	Yele (fam) -> Yele (gen)
+	Yele (gen) -> Yelî Dnye
+	Rashad (gen) -> Rashad
+	Rashad (gen) -> Orig
+	Panoan (fam) -> Panoan (gen)
+	Panoan (gen) -> Shipibo-Konibo
+	Panoan (gen) -> Sharanahua
+	Panoan (gen) -> Matsés
+	Panoan (gen) -> Matis
+	Panoan (gen) -> Yaminahua
+	Panoan (gen) -> Cashibo
+	Trans-New Guinea (fam) -> Engan (gen)
+	Engan (gen) -> Kewa
+	Engan (gen) -> Kyaka
+	Trans-New Guinea (fam) -> Awju-Dumut (gen)
+	Awju-Dumut (gen) -> Korowai
+	Awju-Dumut (gen) -> Kombai
+	Awju-Dumut (gen) -> Wambon
+	Awju-Dumut (gen) -> Pisa
+	Trans-New Guinea (fam) -> Duna (gen)
+	Duna (gen) -> Duna
+	Trans-New Guinea (fam) -> Momuna (gen)
+	Momuna (gen) -> Momuna
+	Trans-New Guinea (fam) -> Binanderean (gen)
+	Binanderean (gen) -> Binandere
+	Binanderean (gen) -> Guhu-Samane
+	Binanderean (gen) -> Orokaiva
+	Binanderean (gen) -> Suena
+	Trans-New Guinea (fam) -> Eastern Highlands (gen)
+	Eastern Highlands (gen) -> Fore
+	Eastern Highlands (gen) -> Awa
+	Eastern Highlands (gen) -> Yagaria
+	Eastern Highlands (gen) -> Gahuku
+	Eastern Highlands (gen) -> Tairora
+	Eastern Highlands (gen) -> Hua
+	Eastern Highlands (gen) -> Agarabi
+	Eastern Highlands (gen) -> Gadsup
+	Eastern Highlands (gen) -> Siane
+	Eastern Highlands (gen) -> Usarufa
+	Trans-New Guinea (fam) -> Mek (gen)
+	Mek (gen) -> Yale (Kosarek)
+	Mek (gen) -> Eipo
+	Mek (gen) -> Una
+	Trans-New Guinea (fam) -> Dani (gen)
+	Dani (gen) -> Dani (Lower Grand Valley)
+	Trans-New Guinea (fam) -> Angan (gen)
+	Angan (gen) -> Hamtai
+	Angan (gen) -> Menya
+	Trans-New Guinea (fam) -> Mailuan (gen)
+	Mailuan (gen) -> Magi
+	Trans-New Guinea (fam) -> Koiarian (gen)
+	Koiarian (gen) -> Barai
+	Koiarian (gen) -> Koita
+	Koiarian (gen) -> Koiali (Mountain)
+	Trans-New Guinea (fam) -> Wissel Lakes-Kemandoga (gen)
+	Wissel Lakes-Kemandoga (gen) -> Moni
+	Wissel Lakes-Kemandoga (gen) -> Ekari
+	Trans-New Guinea (fam) -> Madang (gen)
+	Madang (gen) -> Amele
+	Madang (gen) -> Tauya
+	Madang (gen) -> Bongu
+	Madang (gen) -> Siroi
+	Madang (gen) -> Waskia
+	Madang (gen) -> Kobon
+	Madang (gen) -> Usan
+	Madang (gen) -> Nend
+	Trans-New Guinea (fam) -> Ok (gen)
+	Ok (gen) -> Mian
+	Ok (gen) -> Kati (in West Papua, Indonesia)
+	Ok (gen) -> Telefol
+	Trans-New Guinea (fam) -> Kutubuan (gen)
+	Kutubuan (gen) -> Foe
+	Trans-New Guinea (fam) -> Finisterre-Huon (gen)
+	Finisterre-Huon (gen) -> Nankina
+	Finisterre-Huon (gen) -> Rawa
+	Finisterre-Huon (gen) -> Nabak
+	Trans-New Guinea (fam) -> Asmat-Kamoro (gen)
+	Asmat-Kamoro (gen) -> Kamoro
+	Asmat-Kamoro (gen) -> Asmat
+	Trans-New Guinea (fam) -> Mairasi-Tanahmerah (gen)
+	Mairasi-Tanahmerah (gen) -> Mairasi
+	Trans-New Guinea (fam) -> Goilalan (gen)
+	Goilalan (gen) -> Kunimaipa
+	Trans-New Guinea (fam) -> Chimbu (gen)
+	Chimbu (gen) -> Kuman
+	Chimbu (gen) -> Tabare
+	Chimbu (gen) -> Golin
+	Chimbu (gen) -> Wahgi
+	Chimbu (gen) -> Salt-Yui
+	Kunama (fam) -> Kunama (gen)
+	Kunama (gen) -> Kunama
+	Northern Daly (fam) -> Northern Daly (gen)
+	Northern Daly (gen) -> Tyeraity
+	Na-Dene (fam) -> Tlingit (gen)
+	Tlingit (gen) -> Tlingit
+	Na-Dene (fam) -> Athapaskan (gen)
+	Athapaskan (gen) -> Chipewyan
+	Athapaskan (gen) -> Slave
+	Athapaskan (gen) -> Apache (Western)
+	Athapaskan (gen) -> Sarcee
+	Athapaskan (gen) -> Navajo
+	Southern Daly (fam) -> Murrinh-Patha (gen)
+	Murrinh-Patha (gen) -> Murrinh-Patha
+	Djingili (gen) -> Djingili
+	Maban (fam) -> Maban (gen)
+	Maban (gen) -> Maba
+	Maban (gen) -> Runga
+	Maban (gen) -> Masalit
+	Siouan (fam) -> Catawban (gen)
+	Catawban (gen) -> Catawba
+	Siouan (fam) -> Core Siouan (gen)
+	Core Siouan (gen) -> Hidatsa
+	Core Siouan (gen) -> Omaha
+	Core Siouan (gen) -> Mandan
+	Core Siouan (gen) -> Crow
+	Core Siouan (gen) -> Osage
+	Core Siouan (gen) -> Biloxi
+	Core Siouan (gen) -> Lakhota
+	Core Siouan (gen) -> Tutelo
+	Kiwaian (fam) -> Kiwaian (gen)
+	Kiwaian (gen) -> Kiwai
+	Northwest Caucasian (fam) -> Northwest Caucasian (gen)
+	Northwest Caucasian (gen) -> Abkhaz
+	Northwest Caucasian (gen) -> Ubykh
+	Northwest Caucasian (gen) -> Kabardian
+	Northwest Caucasian (gen) -> Adyghe (Abzakh)
+	Yuchi (fam) -> Yuchi (gen)
+	Yuchi (gen) -> Yuchi
+	Washo (fam) -> Washo (gen)
+	Washo (gen) -> Washo
+	Solomons East Papuan (fam) -> Lavukaleve (gen)
+	Lavukaleve (gen) -> Lavukaleve
+	Solomons East Papuan (fam) -> Savosavo (gen)
+	Savosavo (gen) -> Savosavo
+	Sentani (fam) -> Sentani (gen)
+	Sentani (gen) -> Tabla
+	Sentani (gen) -> Sentani
+	Ijoid (fam) -> Ijoid (gen)
+	Ijoid (gen) -> Ijo (Kolokuma)
+	Anson Bay (fam) -> Anson Bay (gen)
+	Anson Bay (gen) -> Pungupungu
+	Tor-Orya (fam) -> Orya (gen)
+	Orya (gen) -> Orya
+	Mande (fam) -> Western Mande (gen)
+	Western Mande (gen) -> Mende
+	Western Mande (gen) -> Mandinka (Gambian)
+	Western Mande (gen) -> Vai
+	Western Mande (gen) -> Bambara
+	Western Mande (gen) -> Soninke
+	Western Mande (gen) -> Maninka (Western)
+	Western Mande (gen) -> Mauka
+	Western Mande (gen) -> Xasonga
+	Western Mande (gen) -> Susu
+	Mande (fam) -> Eastern Mande (gen)
+	Eastern Mande (gen) -> Mano
+	Eastern Mande (gen) -> Busa
+	Eastern Mande (gen) -> Boko
+	Eastern Mande (gen) -> Wan
+	Eastern Mande (gen) -> Dan
+	Oksapmin (fam) -> Oksapmin (gen)
+	Oksapmin (gen) -> Oksapmin
+	Uru-Chipaya (fam) -> Uru-Chipaya (gen)
+	Uru-Chipaya (gen) -> Chipaya
+	Left May (fam) -> Left May (gen)
+	Left May (gen) -> Owininga
+	Dogon (fam) -> Dogon (gen)
+	Dogon (gen) -> Donno So
+	Dogon (gen) -> Jamsay
+	Rembarnga (gen) -> Rembarnga
+	Haida (fam) -> Haida (gen)
+	Haida (gen) -> Haida
+	Sepik (fam) -> Yellow River (gen)
+	Yellow River (gen) -> Namia
+	Sepik (fam) -> Sepik Hill (gen)
+	Sepik Hill (gen) -> Alamblak
+	Sepik Hill (gen) -> Sare
+	Sepik (fam) -> Upper Sepik (gen)
+	Upper Sepik (gen) -> Iwam
+	Upper Sepik (gen) -> Abau
+	Sepik (fam) -> Ram (gen)
+	Ram (gen) -> Awtuw
+	Sepik (fam) -> Middle Sepik (gen)
+	Middle Sepik (gen) -> Ambulas
+	Middle Sepik (gen) -> Kwoma
+	Middle Sepik (gen) -> Hanga Hundi
+	Middle Sepik (gen) -> Iatmul
+	Jivaroan (fam) -> Jivaroan (gen)
+	Jivaroan (gen) -> Jivaro
+	Nadahup (fam) -> Nadahup (gen)
+	Nadahup (gen) -> Hup
+	Nadahup (gen) -> Dâw
+	Barbacoan (fam) -> Barbacoan (gen)
+	Barbacoan (gen) -> Tsafiki
+	Barbacoan (gen) -> Cayapa
+	Barbacoan (gen) -> Awa Pit
+	Kartvelian (fam) -> Kartvelian (gen)
+	Kartvelian (gen) -> Georgian
+	Yeniseian (fam) -> Yeniseian (gen)
+	Yeniseian (gen) -> Ket
+	Muskogean (fam) -> Muskogean (gen)
+	Muskogean (gen) -> Choctaw
+	Muskogean (gen) -> Seminole
+	Muskogean (gen) -> Mikasuki
+	Muskogean (gen) -> Koasati
+	Hokan (fam) -> Seri (gen)
+	Seri (gen) -> Seri
+	Hokan (fam) -> Yuman (gen)
+	Yuman (gen) -> Diegueño (Mesa Grande)
+	Yuman (gen) -> Hualapai
+	Yuman (gen) -> Tiipay (Jamul)
+	Yuman (gen) -> Kiliwa
+	Yuman (gen) -> Maricopa
+	Hokan (fam) -> Pomoan (gen)
+	Pomoan (gen) -> Pomo (Southeastern)
+	Pomoan (gen) -> Pomo (Eastern)
+	Yareban (fam) -> Yareban (gen)
+	Yareban (gen) -> Yareba
+	Waorani (fam) -> Waorani (gen)
+	Waorani (gen) -> Waorani
+	Eastern Sudanic (fam) -> Taman (gen)
+	Taman (gen) -> Tama
+	Eastern Sudanic (fam) -> Nubian (gen)
+	Nubian (gen) -> Nubian (Dongolese)
+	Nubian (gen) -> Nubian (Kunuz)
+	Eastern Sudanic (fam) -> Daju (gen)
+	Daju (gen) -> Sila
+	Eastern Sudanic (fam) -> Nyimang (gen)
+	Nyimang (gen) -> Nyimang
+	Eastern Sudanic (fam) -> Nara (gen)
+	Nara (gen) -> Nara (in Ethiopia)
+	Yukaghir (fam) -> Yukaghir (gen)
+	Yukaghir (gen) -> Yukaghir (Kolyma)
+	Yukaghir (gen) -> Yukaghir (Tundra)
+	Kiowa-Tanoan (fam) -> Kiowa-Tanoan (gen)
+	Kiowa-Tanoan (gen) -> Kiowa
+	Jabutí (fam) -> Jabutí (gen)
+	Jabutí (gen) -> Jabutí
+	Wagiman (fam) -> Wagiman (gen)
+	Wagiman (gen) -> Wagiman
+	East Bougainville (fam) -> East Bougainville (gen)
+	East Bougainville (gen) -> Nasioi
 	Senagi (fam) -> Senagi (gen)
 	Senagi (gen) -> Anggor
 	Senagi (gen) -> Dla (Proper)
-	North Halmaheran (gen) -> Tobelo
-	Maiduan (gen) -> Maidu (Northeast)
-	Oksapmin (fam) -> Oksapmin (gen)
-	Oksapmin (gen) -> Oksapmin
-	Choco (fam) -> Choco (gen)
-	Choco (gen) -> Epena Pedee
-VSO -> SOV
-	Oceanic (gen) -> Gapapaiwa
-	Oceanic (gen) -> Sinaugoro
-	Oceanic (gen) -> Manam
-	Oceanic (gen) -> Maisin
-	Oceanic (gen) -> Minaveha
-	Oceanic (gen) -> Ala'ala
-	Oceanic (gen) -> Iduna
-	Oceanic (gen) -> Tawala
-	Oceanic (gen) -> Kairiru
-	Oceanic (gen) -> Saliba (in Papua New Guinea)
-	Oceanic (gen) -> Gumawana
-	Oceanic (gen) -> Takia
-	Oceanic (gen) -> Motu
-	Oceanic (gen) -> Wedau
-	Tepiman (gen) -> Pima Bajo
-	Tepiman (gen) -> Nevome
+	Korean (fam) -> Korean (gen)
+	Korean (gen) -> Korean
+	Western Fly (fam) -> Western Fly (gen)
+	Western Fly (gen) -> Meryam Mir
+	Cholon (fam) -> Cholon (gen)
+	Cholon (gen) -> Cholón
+	Candoshi (fam) -> Candoshi (gen)
+	Candoshi (gen) -> Candoshi
 SVO -> SOV
-	Niger-Congo (fam) -> Gur (gen)
-	Niger-Congo (fam) -> Kru (gen)
-	Niger-Congo (fam) -> Bantoid (gen)
-	Kordofanian (fam) -> Rashad (gen)
-	Austro-Asiatic (fam) -> Munda (gen)
+	Slavic (gen) -> Sorbian
+	Indo-European (fam) -> Iranian (gen)
+	Indo-European (fam) -> Armenian (gen)
+	Indo-European (fam) -> Indic (gen)
+	Indo-European (fam) -> Nuristani (gen)
 	Torricelli (fam) -> Marienberg (gen)
-	West Papuan (fam) -> North Halmaheran (gen)
+	Oceanic (gen) -> Maisin
+	Oceanic (gen) -> Kairiru
+	Oceanic (gen) -> Tawala
+	Oceanic (gen) -> Gumawana
+	Oceanic (gen) -> Gapapaiwa
+	Oceanic (gen) -> Ala'ala
+	Oceanic (gen) -> Wedau
+	Oceanic (gen) -> Motu
+	Oceanic (gen) -> Manam
+	Oceanic (gen) -> Minaveha
+	Oceanic (gen) -> Sinaugoro
+	Oceanic (gen) -> Iduna
+	Oceanic (gen) -> Takia
+	Oceanic (gen) -> Saliba (in Papua New Guinea)
+	Gur (gen) -> Supyire
+	Bantoid (gen) -> Tunen
+	Kru (gen) -> Seme
+	Uralic (fam) -> Samoyedic (gen)
+	Permic (gen) -> Udmurt
+	Uralic (fam) -> Ugric (gen)
+	Austro-Asiatic (fam) -> Munda (gen)
+	Kordofanian (fam) -> Rashad (gen)
+	Inland Northern Arawakan (gen) -> Tariana
+	Inland Northern Arawakan (gen) -> Resígaro
+	Purus (gen) -> Piro
+	North Halmaheran (gen) -> Tobelo
 No dominant order -> SOV
-	Gunwinyguan (fam) -> Gunwinygic (gen)
-	Gunwinyguan (fam) -> Rembarnga (gen)
-	Mirndi (fam) -> Djingili (gen)
+	Eskimo (gen) -> Greenlandic (West)
+	Cariban (gen) -> Carib
+	Cariban (gen) -> Carib (De'kwana)
 	Penutian (fam) -> Maiduan (gen)
-OSV -> SOV
-	Nadahup (gen) -> Hup
-	Nadahup (gen) -> Dâw
-VOS -> SOV
 	Southeastern Pama-Nyungan (gen) -> Yuwaalaraay
+	Western Pama-Nyungan (gen) -> Djapu
+	Western Pama-Nyungan (gen) -> Gugada
+	Western Pama-Nyungan (gen) -> Ngaanyatjarra
+	Western Pama-Nyungan (gen) -> Badimaya
+	Western Pama-Nyungan (gen) -> Warluwara
+	Burarran (gen) -> Burarra
+	Tacanan (gen) -> Ese Ejja
+	Mirndi (fam) -> Djingili (gen)
+	Gunwinygic (gen) -> Ngalkbun
+	Gunwinyguan (fam) -> Rembarnga (gen)
+	Khoe-Kwadi (gen) -> Khoekhoe
 SVO -> SVO
-	Enggano (gen) -> Enggano
-	Palauan (gen) -> Palauan
-	South Halmahera - West New Guinea (gen) -> Warembori
+	Matacoan (fam) -> Matacoan (gen)
+	Matacoan (gen) -> Wichí
+	Itonama (fam) -> Itonama (gen)
+	Itonama (gen) -> Itonama
+	Aztecan (gen) -> Nahuatl (Tetelcingo)
+	Aztecan (gen) -> Nahuatl (North Puebla)
+	Aztecan (gen) -> Nahuatl (Michoacán)
+	Anêm (fam) -> Anêm (gen)
+	Anêm (gen) -> Anêm
+	Central Sudanic (fam) -> Kresh (gen)
+	Kresh (gen) -> Kresh
+	Kresh (gen) -> Aja
+	Central Sudanic (fam) -> Mangbetu (gen)
+	Mangbetu (gen) -> Mangbetu
+	Central Sudanic (fam) -> Bongo-Bagirmi (gen)
+	Bongo-Bagirmi (gen) -> Ngambay
+	Bongo-Bagirmi (gen) -> Kara (in Central African Republic)
+	Bongo-Bagirmi (gen) -> Bagirmi
+	Bongo-Bagirmi (gen) -> Bagiro
+	Bongo-Bagirmi (gen) -> Kenga
+	Bongo-Bagirmi (gen) -> Jur Mödö
+	Bongo-Bagirmi (gen) -> Baka (in Sudan)
+	Bongo-Bagirmi (gen) -> Yulu
+	Bongo-Bagirmi (gen) -> Bongo
+	Bongo-Bagirmi (gen) -> Mbay
+	Bongo-Bagirmi (gen) -> Gula (in Central African Republic)
+	Central Sudanic (fam) -> Mangbutu-Efe (gen)
+	Mangbutu-Efe (gen) -> Mamvu
+	Indo-European (fam) -> Baltic (gen)
+	Baltic (gen) -> Lithuanian
+	Baltic (gen) -> Latvian
+	Indo-European (fam) -> Slavic (gen)
+	Slavic (gen) -> Polish
+	Slavic (gen) -> Ukrainian
+	Slavic (gen) -> Czech
+	Slavic (gen) -> Russian
+	Slavic (gen) -> Serbian-Croatian
+	Slavic (gen) -> Bulgarian
+	Slavic (gen) -> Macedonian
+	Slavic (gen) -> Slovene
+	Indo-European (fam) -> Romance (gen)
+	Romance (gen) -> Catalan
+	Romance (gen) -> Portuguese
+	Romance (gen) -> Italian
+	Romance (gen) -> Romanian
+	Romance (gen) -> Spanish
+	Romance (gen) -> Romansch (Sursilvan)
+	Romance (gen) -> French
+	Romance (gen) -> Sardinian
+	Indo-European (fam) -> Albanian (gen)
+	Albanian (gen) -> Albanian
+	Indo-European (fam) -> Germanic (gen)
+	Germanic (gen) -> Icelandic
+	Germanic (gen) -> Danish
+	Germanic (gen) -> Norwegian
+	Germanic (gen) -> English
+	Germanic (gen) -> Swedish
+	Mixe-Zoque (fam) -> Mixe-Zoque (gen)
+	Mixe-Zoque (gen) -> Zoque (Chimalapa)
+	Mixe-Zoque (gen) -> Zoque (Soteapan)
+	Zamucoan (fam) -> Zamucoan (gen)
+	Zamucoan (gen) -> Ayoreo
+	Kxa (fam) -> =|Hoan (gen)
+	=|Hoan (gen) -> =|Hoan
+	Kxa (fam) -> Ju-Kung (gen)
+	Ju-Kung (gen) -> Ju|'hoan
+	Tangkic (fam) -> Tangkic (gen)
+	Tangkic (gen) -> Yukulta
+	Torricelli (fam) -> Kombio-Arapesh (gen)
+	Kombio-Arapesh (gen) -> Arapesh (Mountain)
+	Kombio-Arapesh (gen) -> Kombio
+	Kombio-Arapesh (gen) -> Arapesh (Abu)
+	Kombio-Arapesh (gen) -> Mufian
+	Torricelli (fam) -> Wapei-Palei (gen)
+	Wapei-Palei (gen) -> Olo
+	Wapei-Palei (gen) -> Urat
+	Wapei-Palei (gen) -> Walman
+	Wapei-Palei (gen) -> Au
+	Torricelli (fam) -> West Wapei (gen)
+	West Wapei (gen) -> One
+	Totonacan (fam) -> Totonacan (gen)
+	Totonacan (gen) -> Totonac (Xicotepec de Juárez)
+	Totonacan (gen) -> Tepehua (Tlachichilco)
+	Huavean (fam) -> Huavean (gen)
+	Huavean (gen) -> Huave (San Mateo del Mar)
+	Pamean (gen) -> Pame
+	Matlatzincan (gen) -> Ocuilteco
+	Austronesian (fam) -> Lampungic (gen)
+	Lampungic (gen) -> Lampung
+	Austronesian (fam) -> Oceanic (gen)
+	Oceanic (gen) -> Port Sandwich
+	Oceanic (gen) -> Ura
+	Oceanic (gen) -> Puluwat
+	Oceanic (gen) -> Tigak
+	Oceanic (gen) -> Arop-Lokep
+	Oceanic (gen) -> Tungak
+	Oceanic (gen) -> Sonsorol-Tobi
+	Oceanic (gen) -> Efate (South)
+	Oceanic (gen) -> Ulithian
+	Oceanic (gen) -> Maleu
+	Oceanic (gen) -> Amara
+	Oceanic (gen) -> Paamese
+	Oceanic (gen) -> Banoni
+	Oceanic (gen) -> Lou
+	Oceanic (gen) -> Iaai
+	Oceanic (gen) -> Kosraean
+	Oceanic (gen) -> Sobei
+	Oceanic (gen) -> Raga
+	Oceanic (gen) -> Labu
+	Oceanic (gen) -> Woleaian
+	Oceanic (gen) -> Mussau
+	Oceanic (gen) -> Nakanai
+	Oceanic (gen) -> Kaulong
+	Oceanic (gen) -> Erromangan
+	Oceanic (gen) -> Musom
+	Oceanic (gen) -> Sio
+	Oceanic (gen) -> Lusi
+	Oceanic (gen) -> Xârâcùù
+	Oceanic (gen) -> Siar
+	Oceanic (gen) -> Taiof
+	Oceanic (gen) -> Mwotlap
+	Oceanic (gen) -> Mae
+	Oceanic (gen) -> Futuna-Aniwa
+	Oceanic (gen) -> Ambae (Lolovoli Northeast)
+	Oceanic (gen) -> Sudest
+	Oceanic (gen) -> Sisiqa
+	Oceanic (gen) -> Jabêm
+	Oceanic (gen) -> Bali-Vitu
+	Oceanic (gen) -> Vinmavis
+	Oceanic (gen) -> Teop
+	Oceanic (gen) -> Mangap-Mbula
+	Oceanic (gen) -> Adzera
+	Oceanic (gen) -> Sakao
+	Oceanic (gen) -> Tolai
+	Oceanic (gen) -> Southeast Ambrym
+	Oceanic (gen) -> Buma
+	Oceanic (gen) -> Patep
+	Oceanic (gen) -> Tumleo
+	Oceanic (gen) -> Kele
+	Oceanic (gen) -> Nguna
+	Oceanic (gen) -> Lewo
+	Oceanic (gen) -> Nalik
+	Oceanic (gen) -> Arosi
+	Oceanic (gen) -> Lamen
+	Oceanic (gen) -> Lenakel
+	Oceanic (gen) -> Ifira-Mele
+	Oceanic (gen) -> Nengone
+	Oceanic (gen) -> Mokilese
+	Oceanic (gen) -> Halia
+	Oceanic (gen) -> Tamabo
+	Oceanic (gen) -> Nehan
+	Oceanic (gen) -> Pohnpeian
+	Oceanic (gen) -> Loniu
+	Oceanic (gen) -> Kwaio
+	Oceanic (gen) -> Aribwatsa
+	Oceanic (gen) -> Rotuman
+	Oceanic (gen) -> Ayiwo
+	Austronesian (fam) -> Barito (gen)
+	Barito (gen) -> Ma'anyan
+	Barito (gen) -> Banggi
+	Austronesian (fam) -> South Halmahera - West New Guinea (gen)
 	South Halmahera - West New Guinea (gen) -> Ambai
 	South Halmahera - West New Guinea (gen) -> Mor
 	South Halmahera - West New Guinea (gen) -> Biak
-	South Halmahera - West New Guinea (gen) -> Irarutu
 	South Halmahera - West New Guinea (gen) -> Taba
+	South Halmahera - West New Guinea (gen) -> Irarutu
+	South Halmahera - West New Guinea (gen) -> Warembori
+	Austronesian (fam) -> South Sulawesi (gen)
 	South Sulawesi (gen) -> Bugis
-	Lampungic (gen) -> Lampung
-	Central Malayo-Polynesian (gen) -> Tetun Dili
-	Central Malayo-Polynesian (gen) -> Leti
-	Central Malayo-Polynesian (gen) -> Paulohi
-	Central Malayo-Polynesian (gen) -> Buru
-	Central Malayo-Polynesian (gen) -> Ngad'a
+	Austronesian (fam) -> Palauan (gen)
+	Palauan (gen) -> Palauan
+	Austronesian (fam) -> Malayo-Sumbawan (gen)
+	Malayo-Sumbawan (gen) -> Indonesian
+	Malayo-Sumbawan (gen) -> Iban
+	Malayo-Sumbawan (gen) -> Urak Lawoi'
+	Malayo-Sumbawan (gen) -> Manadonese
+	Malayo-Sumbawan (gen) -> Cham (Eastern)
+	Malayo-Sumbawan (gen) -> Cham (Western)
+	Malayo-Sumbawan (gen) -> Sundanese
+	Austronesian (fam) -> Celebic (gen)
+	Celebic (gen) -> Muna
+	Austronesian (fam) -> Enggano (gen)
+	Enggano (gen) -> Enggano
+	Austronesian (fam) -> Central Malayo-Polynesian (gen)
 	Central Malayo-Polynesian (gen) -> Alune
-	Central Malayo-Polynesian (gen) -> Tetun
-	Central Malayo-Polynesian (gen) -> Lamaholot
-	Central Malayo-Polynesian (gen) -> Manggarai
-	Central Malayo-Polynesian (gen) -> Tugun
+	Central Malayo-Polynesian (gen) -> Ngad'a
 	Central Malayo-Polynesian (gen) -> Nuaulu
-	Temein (gen) -> Temein
-	Eastern Jebel (gen) -> Ingessana
-	Gumuz (fam) -> Gumuz (gen)
-	Gumuz (gen) -> Gumuz
-	Araucanian (fam) -> Araucanian (gen)
-	Araucanian (gen) -> Mapudungun
-	Alto-Orinoco (gen) -> Maipure
-	Eastern Arawakan (gen) -> Palikur
-	Huavean (fam) -> Huavean (gen)
-	Huavean (gen) -> Huave (San Mateo del Mar)
-	Kxa (fam) -> Ju-Kung (gen)
-	Ju-Kung (gen) -> Ju|'hoan
-	Kxa (fam) -> =|Hoan (gen)
-	=|Hoan (gen) -> =|Hoan
-	Chinese (gen) -> Mandarin
-	Chinese (gen) -> Hakka
-	Chinese (gen) -> Cantonese
-	Karen (gen) -> Karen (Sgaw)
-	Karen (gen) -> Karen (Bwe)
-	Karen (gen) -> Kayah Li (Eastern)
-	Karen (gen) -> Karen (Pwo)
-	Bai (gen) -> Bai
-	Warayic (gen) -> Waray (in Australia)
-	Anêm (fam) -> Anêm (gen)
-	Anêm (gen) -> Anêm
-	Mordvin (gen) -> Mordvin (Erzya)
-	Saami (gen) -> Saami (Northern)
-	Finnic (gen) -> Estonian
-	Finnic (gen) -> Finnish
-	Tiwian (fam) -> Tiwian (gen)
-	Tiwian (gen) -> Tiwi
-	Matacoan (fam) -> Matacoan (gen)
-	Matacoan (gen) -> Wichí
+	Central Malayo-Polynesian (gen) -> Lamaholot
+	Central Malayo-Polynesian (gen) -> Leti
+	Central Malayo-Polynesian (gen) -> Tetun
+	Central Malayo-Polynesian (gen) -> Tetun Dili
+	Central Malayo-Polynesian (gen) -> Buru
+	Central Malayo-Polynesian (gen) -> Paulohi
+	Central Malayo-Polynesian (gen) -> Tugun
+	Central Malayo-Polynesian (gen) -> Manggarai
+	Niger-Congo (fam) -> Platoid (gen)
+	Platoid (gen) -> Fyem
+	Platoid (gen) -> Gworok
+	Platoid (gen) -> Jukun
+	Platoid (gen) -> Birom
+	Niger-Congo (fam) -> Nupoid (gen)
+	Nupoid (gen) -> Ebira
+	Nupoid (gen) -> Nupe
+	Niger-Congo (fam) -> Mel (gen)
+	Mel (gen) -> Baga Sitemu
+	Mel (gen) -> Temne
+	Niger-Congo (fam) -> Gur (gen)
+	Gur (gen) -> Dagaare
+	Gur (gen) -> Kàsim
+	Gur (gen) -> Kirma
+	Gur (gen) -> Waama
+	Gur (gen) -> Koromfe
+	Gur (gen) -> Konni
+	Gur (gen) -> Dagbani
+	Gur (gen) -> Buli (in Ghana)
+	Gur (gen) -> Kabiyé
+	Gur (gen) -> Bimoba
+	Gur (gen) -> Mooré
+	Gur (gen) -> Ncàm
+	Gur (gen) -> Sisaala
+	Niger-Congo (fam) -> Gbaya-Manza-Ngbaka (gen)
+	Gbaya-Manza-Ngbaka (gen) -> Gbaya Kara
+	Gbaya-Manza-Ngbaka (gen) -> Ngbaka (Minagende)
+	Gbaya-Manza-Ngbaka (gen) -> Mbodomo
+	Gbaya-Manza-Ngbaka (gen) -> Gbeya Bossangoa
+	Niger-Congo (fam) -> Northern Atlantic (gen)
+	Northern Atlantic (gen) -> Ndut
+	Northern Atlantic (gen) -> Noon
+	Northern Atlantic (gen) -> Diola-Fogny
+	Northern Atlantic (gen) -> Balanta
+	Northern Atlantic (gen) -> Wolof
+	Northern Atlantic (gen) -> Fula (Cameroonian)
+	Niger-Congo (fam) -> Adamawa (gen)
+	Adamawa (gen) -> Doyayo
+	Adamawa (gen) -> Mundang
+	Adamawa (gen) -> Mbum
+	Adamawa (gen) -> Mumuye
+	Adamawa (gen) -> Tupuri
+	Adamawa (gen) -> Day
+	Adamawa (gen) -> Samba Leko
+	Niger-Congo (fam) -> Ubangi (gen)
+	Ubangi (gen) -> Baka (in Cameroon)
+	Ubangi (gen) -> Mondunga
+	Ubangi (gen) -> Sango
+	Ubangi (gen) -> Mba
+	Ubangi (gen) -> Linda
+	Ubangi (gen) -> Mayogo
+	Ubangi (gen) -> Ngbaka (Ma'bo)
+	Ubangi (gen) -> Ma
+	Ubangi (gen) -> Ngbandi
+	Ubangi (gen) -> Nzakara
+	Ubangi (gen) -> Zande
+	Niger-Congo (fam) -> Kwa (gen)
+	Kwa (gen) -> Anyi
+	Kwa (gen) -> Ewe
+	Kwa (gen) -> Nkonya
+	Kwa (gen) -> Akan
+	Kwa (gen) -> Fongbe
+	Kwa (gen) -> Lelemi
+	Kwa (gen) -> Avikam
+	Kwa (gen) -> Anufo
+	Kwa (gen) -> Adioukrou
+	Kwa (gen) -> Gã
+	Kwa (gen) -> Baule
+	Kwa (gen) -> Ega
+	Kwa (gen) -> Gungbe
+	Niger-Congo (fam) -> Igboid (gen)
+	Igboid (gen) -> Izi
+	Igboid (gen) -> Igbo
+	Niger-Congo (fam) -> Bantoid (gen)
+	Bantoid (gen) -> Noni
+	Bantoid (gen) -> Sangu
+	Bantoid (gen) -> Ndonga
+	Bantoid (gen) -> Chichewa
+	Bantoid (gen) -> Aghem
+	Bantoid (gen) -> Pare
+	Bantoid (gen) -> Mbalanhu
+	Bantoid (gen) -> Tuki
+	Bantoid (gen) -> Mungaka
+	Bantoid (gen) -> Kikuyu
+	Bantoid (gen) -> Ngoni
+	Bantoid (gen) -> Sengele
+	Bantoid (gen) -> Duala
+	Bantoid (gen) -> Shona
+	Bantoid (gen) -> Bushoong
+	Bantoid (gen) -> Haya
+	Bantoid (gen) -> Tetela
+	Bantoid (gen) -> Ngombe
+	Bantoid (gen) -> Londo
+	Bantoid (gen) -> Hemba
+	Bantoid (gen) -> Jarawa (in Nigeria)
+	Bantoid (gen) -> Lebeo
+	Bantoid (gen) -> Kongo
+	Bantoid (gen) -> Luvale
+	Bantoid (gen) -> Bubi
+	Bantoid (gen) -> Ifumu
+	Bantoid (gen) -> Bira
+	Bantoid (gen) -> Bobangi
+	Bantoid (gen) -> Kete
+	Bantoid (gen) -> Yao (in Malawi)
+	Bantoid (gen) -> Sesotho
+	Bantoid (gen) -> Pangwa
+	Bantoid (gen) -> Makua
+	Bantoid (gen) -> Makaa
+	Bantoid (gen) -> Makonde
+	Bantoid (gen) -> Kinyarwanda
+	Bantoid (gen) -> Lucazi
+	Bantoid (gen) -> Lega
+	Bantoid (gen) -> Swahili
+	Bantoid (gen) -> Nyanga
+	Bantoid (gen) -> Venda
+	Bantoid (gen) -> Mongo
+	Bantoid (gen) -> Ekoti
+	Bantoid (gen) -> Mambila
+	Bantoid (gen) -> Holoholo
+	Bantoid (gen) -> Babole
+	Bantoid (gen) -> Shambala
+	Bantoid (gen) -> Budu
+	Bantoid (gen) -> Doko
+	Bantoid (gen) -> Tabwa
+	Bantoid (gen) -> Nkore-Kiga
+	Bantoid (gen) -> Bankon
+	Bantoid (gen) -> Sotho (Northern)
+	Bantoid (gen) -> Ewondo
+	Bantoid (gen) -> Zulu
+	Bantoid (gen) -> Ntomba
+	Bantoid (gen) -> Babungo
+	Bantoid (gen) -> Mbili
+	Bantoid (gen) -> Mbosi
+	Bantoid (gen) -> Nsenga
+	Bantoid (gen) -> Lunda
+	Bantoid (gen) -> Hunde
+	Bantoid (gen) -> Runyankore
+	Bantoid (gen) -> Mankon
+	Bantoid (gen) -> Kinga
+	Bantoid (gen) -> Mwera
+	Bantoid (gen) -> Talinga
+	Bantoid (gen) -> Rimi
+	Bantoid (gen) -> Iwoyo
+	Bantoid (gen) -> Ndebele (in South Africa)
+	Bantoid (gen) -> Pogoro
+	Bantoid (gen) -> Bafut
+	Bantoid (gen) -> Matuumbi
+	Bantoid (gen) -> Suku
+	Bantoid (gen) -> Nkem
+	Bantoid (gen) -> Hehe
+	Bantoid (gen) -> Langi
+	Bantoid (gen) -> Ila
+	Bantoid (gen) -> Xhosa
+	Bantoid (gen) -> Lingala
+	Bantoid (gen) -> Duma
+	Bantoid (gen) -> Tonga (in Zambia)
+	Bantoid (gen) -> Kamba
+	Bantoid (gen) -> Kiluba
+	Bantoid (gen) -> Tiv
+	Bantoid (gen) -> Ronga
+	Bantoid (gen) -> Bakueri
+	Bantoid (gen) -> Chaga
+	Bantoid (gen) -> Bolia
+	Bantoid (gen) -> Basaá
+	Bantoid (gen) -> Ndumu
+	Bantoid (gen) -> Mbere
+	Bantoid (gen) -> Kwangali
+	Bantoid (gen) -> Runyoro-Rutooro
+	Bantoid (gen) -> Sukuma
+	Niger-Congo (fam) -> Defoid (gen)
+	Defoid (gen) -> Yoruba
+	Niger-Congo (fam) -> Cross River (gen)
+	Cross River (gen) -> Gokana
+	Cross River (gen) -> Obolo
+	Cross River (gen) -> Kana
+	Cross River (gen) -> Ogbronuagum
+	Cross River (gen) -> Leggbó
+	Niger-Congo (fam) -> Idomoid (gen)
+	Idomoid (gen) -> Igede
+	Niger-Congo (fam) -> Kru (gen)
+	Kru (gen) -> Grebo
+	Kru (gen) -> Klao
+	Niger-Congo (fam) -> Kainji (gen)
+	Kainji (gen) -> Duka
+	Niger-Congo (fam) -> Edoid (gen)
+	Edoid (gen) -> Engenni
+	Edoid (gen) -> Bini
+	Edoid (gen) -> Degema
+	Edoid (gen) -> Emai
+	Costanoan (gen) -> Mutsun
+	Tai-Kadai (fam) -> Kadai (gen)
+	Kadai (gen) -> Gelao
 	Tai-Kadai (fam) -> Hlai (gen)
 	Hlai (gen) -> Hlai (Baoding)
 	Tai-Kadai (fam) -> Kam-Tai (gen)
-	Kam-Tai (gen) -> Lao
-	Kam-Tai (gen) -> Yay
-	Kam-Tai (gen) -> Dong
-	Kam-Tai (gen) -> Khün
-	Kam-Tai (gen) -> Nung (in Vietnam)
-	Kam-Tai (gen) -> Thai
-	Kam-Tai (gen) -> Shan
 	Kam-Tai (gen) -> Zhuang (Northern)
-	Tai-Kadai (fam) -> Kadai (gen)
-	Kadai (gen) -> Gelao
-	Romance (gen) -> Portuguese
-	Romance (gen) -> Romansch (Sursilvan)
-	Romance (gen) -> Romanian
-	Romance (gen) -> Sardinian
-	Romance (gen) -> French
-	Romance (gen) -> Catalan
-	Romance (gen) -> Spanish
-	Romance (gen) -> Italian
-	Albanian (gen) -> Albanian
-	Baltic (gen) -> Lithuanian
-	Baltic (gen) -> Latvian
-	Koman (fam) -> Koman (gen)
-	Koman (gen) -> Komo
-	Laal (fam) -> Laal (gen)
-	Laal (gen) -> Laal
+	Kam-Tai (gen) -> Khün
+	Kam-Tai (gen) -> Lao
+	Kam-Tai (gen) -> Thai
+	Kam-Tai (gen) -> Dong
+	Kam-Tai (gen) -> Shan
+	Kam-Tai (gen) -> Nung (in Vietnam)
+	Kam-Tai (gen) -> Yay
+	Araucanian (fam) -> Araucanian (gen)
+	Araucanian (gen) -> Mapudungun
+	Tu (fam) -> Tu (gen)
+	Tu (gen) -> !Xóõ
+	Tu (gen) -> /Xam
 	Mosetenan (fam) -> Mosetenan (gen)
 	Mosetenan (gen) -> Mosetén
-	Niger-Congo (fam) -> Defoid (gen)
-	Defoid (gen) -> Yoruba
-	Niger-Congo (fam) -> Adamawa (gen)
-	Adamawa (gen) -> Mundang
-	Adamawa (gen) -> Tupuri
-	Adamawa (gen) -> Mbum
-	Adamawa (gen) -> Doyayo
-	Adamawa (gen) -> Samba Leko
-	Adamawa (gen) -> Mumuye
-	Adamawa (gen) -> Day
-	Niger-Congo (fam) -> Edoid (gen)
-	Edoid (gen) -> Emai
-	Edoid (gen) -> Bini
-	Edoid (gen) -> Degema
-	Edoid (gen) -> Engenni
-	Niger-Congo (fam) -> Platoid (gen)
-	Platoid (gen) -> Gworok
-	Platoid (gen) -> Jukun
-	Platoid (gen) -> Fyem
-	Platoid (gen) -> Birom
-	Niger-Congo (fam) -> Northern Atlantic (gen)
-	Northern Atlantic (gen) -> Diola-Fogny
-	Northern Atlantic (gen) -> Fula (Cameroonian)
-	Northern Atlantic (gen) -> Wolof
-	Northern Atlantic (gen) -> Balanta
-	Northern Atlantic (gen) -> Ndut
-	Northern Atlantic (gen) -> Noon
-	Niger-Congo (fam) -> Kainji (gen)
-	Kainji (gen) -> Duka
-	Niger-Congo (fam) -> Igboid (gen)
-	Igboid (gen) -> Igbo
-	Igboid (gen) -> Izi
-	Niger-Congo (fam) -> Gbaya-Manza-Ngbaka (gen)
-	Gbaya-Manza-Ngbaka (gen) -> Gbeya Bossangoa
-	Gbaya-Manza-Ngbaka (gen) -> Gbaya Kara
-	Gbaya-Manza-Ngbaka (gen) -> Mbodomo
-	Gbaya-Manza-Ngbaka (gen) -> Ngbaka (Minagende)
-	Niger-Congo (fam) -> Cross River (gen)
-	Cross River (gen) -> Leggbó
-	Cross River (gen) -> Gokana
-	Cross River (gen) -> Obolo
-	Cross River (gen) -> Ogbronuagum
-	Cross River (gen) -> Kana
-	East Bird's Head (fam) -> East Bird's Head (gen)
-	East Bird's Head (gen) -> Meyah
-	East Bird's Head (gen) -> Sougb
-	Sulka (fam) -> Sulka (gen)
-	Sulka (gen) -> Sulka
-	Tarascan (fam) -> Tarascan (gen)
-	Tarascan (gen) -> Purépecha
-	Hmong-Mien (fam) -> Hmong-Mien (gen)
-	Hmong-Mien (gen) -> Mien
-	Hmong-Mien (gen) -> Hmong Njua
-	Hmong-Mien (gen) -> Bunu (Younuo)
 	Iwaidjan (fam) -> Iwaidjan (gen)
 	Iwaidjan (gen) -> Maung
 	Iwaidjan (gen) -> Iwaidja
+	Uralic (fam) -> Mordvin (gen)
+	Mordvin (gen) -> Mordvin (Erzya)
+	Uralic (fam) -> Finnic (gen)
+	Finnic (gen) -> Finnish
+	Finnic (gen) -> Estonian
+	Uralic (fam) -> Permic (gen)
+	Permic (gen) -> Komi-Zyrian
+	Uralic (fam) -> Saami (gen)
+	Saami (gen) -> Saami (Northern)
+	Gumuz (fam) -> Gumuz (gen)
+	Gumuz (gen) -> Gumuz
+	West Chadic (gen) -> Ron
+	West Chadic (gen) -> Ngizim
+	West Chadic (gen) -> Pa'a
+	West Chadic (gen) -> Pero
+	West Chadic (gen) -> Mupun
+	West Chadic (gen) -> Goemai
+	West Chadic (gen) -> Tangale
+	West Chadic (gen) -> Angas
+	West Chadic (gen) -> Hausa
+	West Chadic (gen) -> Kanakuru
+	Biu-Mandara (gen) -> Uldeme
+	Biu-Mandara (gen) -> Mofu-Gudur
+	Biu-Mandara (gen) -> Mina
+	Biu-Mandara (gen) -> Mada (in Cameroon)
+	Biu-Mandara (gen) -> Tera
+	Biu-Mandara (gen) -> Buduma
+	Biu-Mandara (gen) -> Lagwan
+	Biu-Mandara (gen) -> Mbara
+	Biu-Mandara (gen) -> Musgu
+	Biu-Mandara (gen) -> Malgwa
+	Biu-Mandara (gen) -> Margi
+	East Chadic (gen) -> Kera
+	East Chadic (gen) -> Lele
+	East Chadic (gen) -> Bidiya
+	Masa (gen) -> Masa
+	Egyptian-Coptic (gen) -> Coptic
+	Timote-Cuica (fam) -> Timote-Cuica (gen)
+	Timote-Cuica (gen) -> Cuica
+	East Bird's Head (fam) -> East Bird's Head (gen)
+	East Bird's Head (gen) -> Meyah
+	East Bird's Head (gen) -> Sougb
+	Tiwian (fam) -> Tiwian (gen)
+	Tiwian (gen) -> Tiwi
+	other (fam) -> Creoles and Pidgins (gen)
+	Creoles and Pidgins (gen) -> Ndyuka
+	Bai (gen) -> Bai
+	Karen (gen) -> Karen (Bwe)
+	Karen (gen) -> Karen (Sgaw)
+	Karen (gen) -> Karen (Pwo)
+	Karen (gen) -> Kayah Li (Eastern)
+	Chinese (gen) -> Mandarin
+	Chinese (gen) -> Hakka
+	Chinese (gen) -> Cantonese
+	Kadu (fam) -> Kadugli (gen)
+	Kadugli (gen) -> Kadugli
+	Kadugli (gen) -> Katcha
+	Austro-Asiatic (fam) -> Khasian (gen)
+	Khasian (gen) -> Khasi
+	Austro-Asiatic (fam) -> Pearic (gen)
+	Pearic (gen) -> Kasong
+	Austro-Asiatic (fam) -> Khmer (gen)
+	Khmer (gen) -> Khmer
+	Austro-Asiatic (fam) -> Bahnaric (gen)
+	Bahnaric (gen) -> Chrau
+	Bahnaric (gen) -> Sapuan
+	Bahnaric (gen) -> Cua
+	Bahnaric (gen) -> Sedang
+	Bahnaric (gen) -> Brao
+	Bahnaric (gen) -> Sre
+	Bahnaric (gen) -> Stieng
+	Austro-Asiatic (fam) -> Palaung-Khmuic (gen)
+	Palaung-Khmuic (gen) -> Palaung
+	Palaung-Khmuic (gen) -> Khmu'
+	Palaung-Khmuic (gen) -> Mlabri (Minor)
+	Austro-Asiatic (fam) -> Aslian (gen)
+	Aslian (gen) -> Temiar
+	Austro-Asiatic (fam) -> Viet-Muong (gen)
+	Viet-Muong (gen) -> Vietnamese
+	Austro-Asiatic (fam) -> Monic (gen)
+	Monic (gen) -> Mon
+	Zaparoan (fam) -> Zaparoan (gen)
+	Zaparoan (gen) -> Zaparo
+	Zaparoan (gen) -> Iquito
 	Kordofanian (fam) -> Katla-Tima (gen)
 	Katla-Tima (gen) -> Tima
 	Katla-Tima (gen) -> Katla
 	Kordofanian (fam) -> Heiban (gen)
-	Heiban (gen) -> Otoro
 	Heiban (gen) -> Moro
-	Zamucoan (fam) -> Zamucoan (gen)
-	Zamucoan (gen) -> Ayoreo
-	Salinan (fam) -> Salinan (gen)
-	Salinan (gen) -> Salinan
+	Heiban (gen) -> Otoro
+	Arawakan (fam) -> Eastern Arawakan (gen)
+	Eastern Arawakan (gen) -> Palikur
+	Arawakan (fam) -> Inland Northern Arawakan (gen)
+	Inland Northern Arawakan (gen) -> Yucuna
+	Inland Northern Arawakan (gen) -> Warekena
+	Inland Northern Arawakan (gen) -> Achagua
+	Inland Northern Arawakan (gen) -> Baré
+	Arawakan (fam) -> Alto-Orinoco (gen)
+	Alto-Orinoco (gen) -> Maipure
+	Arawakan (fam) -> Purus (gen)
+	Purus (gen) -> Apurinã
 	Arauan (fam) -> Arauan (gen)
 	Arauan (gen) -> Paumarí
-	Timote-Cuica (fam) -> Timote-Cuica (gen)
-	Timote-Cuica (gen) -> Cuica
+	Laal (fam) -> Laal (gen)
+	Laal (gen) -> Laal
+	Hmong-Mien (fam) -> Hmong-Mien (gen)
+	Hmong-Mien (gen) -> Bunu (Younuo)
+	Hmong-Mien (gen) -> Hmong Njua
+	Hmong-Mien (gen) -> Mien
+	Warayic (gen) -> Waray (in Australia)
+	Koman (fam) -> Koman (gen)
+	Koman (gen) -> Komo
+	Sulka (fam) -> Sulka (gen)
+	Sulka (gen) -> Sulka
+	Salinan (fam) -> Salinan (gen)
+	Salinan (gen) -> Salinan
+	Tarascan (fam) -> Tarascan (gen)
+	Tarascan (gen) -> Purépecha
 	Berta (fam) -> Berta (gen)
 	Berta (gen) -> Berta
-	Masa (gen) -> Masa
-	Egyptian-Coptic (gen) -> Coptic
-	East Chadic (gen) -> Bidiya
-	East Chadic (gen) -> Lele
-	East Chadic (gen) -> Kera
+	Guaicuruan (fam) -> South Guaicuruan (gen)
+	South Guaicuruan (gen) -> Mocoví
+	South Guaicuruan (gen) -> Pilagá
+	South Guaicuruan (gen) -> Abipón
 	Guaicuruan (fam) -> Kadiwéu (gen)
 	Kadiwéu (gen) -> Kadiwéu
-	Tu (fam) -> Tu (gen)
-	Tu (gen) -> /Xam
-	Tu (gen) -> !Xóõ
 	Warndarang (gen) -> Warndarang
-	Austro-Asiatic (fam) -> Khmer (gen)
-	Khmer (gen) -> Khmer
-	Austro-Asiatic (fam) -> Palaung-Khmuic (gen)
-	Palaung-Khmuic (gen) -> Palaung
-	Palaung-Khmuic (gen) -> Mlabri (Minor)
-	Palaung-Khmuic (gen) -> Khmu'
-	Austro-Asiatic (fam) -> Monic (gen)
-	Monic (gen) -> Mon
-	Austro-Asiatic (fam) -> Viet-Muong (gen)
-	Viet-Muong (gen) -> Vietnamese
-	Austro-Asiatic (fam) -> Bahnaric (gen)
-	Bahnaric (gen) -> Cua
-	Bahnaric (gen) -> Chrau
-	Bahnaric (gen) -> Sre
-	Bahnaric (gen) -> Stieng
-	Bahnaric (gen) -> Sapuan
-	Bahnaric (gen) -> Sedang
-	Bahnaric (gen) -> Brao
-	Austro-Asiatic (fam) -> Pearic (gen)
-	Pearic (gen) -> Kasong
-	Austro-Asiatic (fam) -> Khasian (gen)
-	Khasian (gen) -> Khasi
-	Zaparoan (fam) -> Zaparoan (gen)
-	Zaparoan (gen) -> Zaparo
-	Zaparoan (gen) -> Iquito
-	other (fam) -> Creoles and Pidgins (gen)
-	Creoles and Pidgins (gen) -> Ndyuka
-	Pamean (gen) -> Pame
-	Matlatzincan (gen) -> Ocuilteco
-	Central Sudanic (fam) -> Mangbetu (gen)
-	Mangbetu (gen) -> Mangbetu
-	Central Sudanic (fam) -> Bongo-Bagirmi (gen)
-	Bongo-Bagirmi (gen) -> Bongo
-	Bongo-Bagirmi (gen) -> Bagiro
-	Bongo-Bagirmi (gen) -> Kenga
-	Bongo-Bagirmi (gen) -> Gula (in Central African Republic)
-	Bongo-Bagirmi (gen) -> Kara (in Central African Republic)
-	Bongo-Bagirmi (gen) -> Bagirmi
-	Bongo-Bagirmi (gen) -> Yulu
-	Bongo-Bagirmi (gen) -> Mbay
-	Bongo-Bagirmi (gen) -> Jur Mödö
-	Bongo-Bagirmi (gen) -> Ngambay
-	Bongo-Bagirmi (gen) -> Baka (in Sudan)
-	Central Sudanic (fam) -> Kresh (gen)
-	Kresh (gen) -> Kresh
-	Kresh (gen) -> Aja
-	Torricelli (fam) -> Kombio-Arapesh (gen)
-	Kombio-Arapesh (gen) -> Mufian
-	Kombio-Arapesh (gen) -> Arapesh (Abu)
-	Kombio-Arapesh (gen) -> Kombio
-	Kombio-Arapesh (gen) -> Arapesh (Mountain)
-	Torricelli (fam) -> Wapei-Palei (gen)
-	Wapei-Palei (gen) -> Urat
-	Wapei-Palei (gen) -> Au
-	Wapei-Palei (gen) -> Walman
-	Wapei-Palei (gen) -> Olo
-	Torricelli (fam) -> West Wapei (gen)
-	West Wapei (gen) -> One
-	Itonama (fam) -> Itonama (gen)
-	Itonama (gen) -> Itonama
-	West Papuan (fam) -> Hatam (gen)
-	Hatam (gen) -> Hatam
-	West Papuan (fam) -> Kebar (gen)
-	Kebar (gen) -> Mpur
-	West Papuan (fam) -> North-Central Bird's Head (gen)
-	North-Central Bird's Head (gen) -> Abun
-	North-Central Bird's Head (gen) -> Maybrat
-	Costanoan (gen) -> Mutsun
-SOV -> SVO
-	Eastern Sudanic (fam) -> Temein (gen)
-	Eastern Sudanic (fam) -> Eastern Jebel (gen)
-	Daju (gen) -> Shatt
-	Inland Northern Arawakan (gen) -> Baré
-	Inland Northern Arawakan (gen) -> Achagua
-	Inland Northern Arawakan (gen) -> Warekena
-	Inland Northern Arawakan (gen) -> Yucuna
-	Arawakan (fam) -> Alto-Orinoco (gen)
-	Purus (gen) -> Apurinã
-	Arawakan (fam) -> Eastern Arawakan (gen)
-	Sino-Tibetan (fam) -> Chinese (gen)
-	Sino-Tibetan (fam) -> Karen (gen)
-	Sino-Tibetan (fam) -> Bai (gen)
-	Gunwinygic (gen) -> Gunbalang
-	Permic (gen) -> Komi-Zyrian
-	Uralic (fam) -> Mordvin (gen)
-	Uralic (fam) -> Saami (gen)
-	Uralic (fam) -> Finnic (gen)
-	Indo-European (fam) -> Romance (gen)
-	Slavic (gen) -> Bulgarian
-	Slavic (gen) -> Slovene
-	Slavic (gen) -> Ukrainian
-	Slavic (gen) -> Czech
-	Slavic (gen) -> Macedonian
-	Slavic (gen) -> Serbian-Croatian
-	Slavic (gen) -> Russian
-	Slavic (gen) -> Polish
-	Indo-European (fam) -> Albanian (gen)
-	Indic (gen) -> Kashmiri
-	Indo-European (fam) -> Baltic (gen)
-	Gur (gen) -> Konni
-	Gur (gen) -> Koromfe
-	Gur (gen) -> Bimoba
-	Gur (gen) -> Mooré
-	Gur (gen) -> Ncàm
-	Gur (gen) -> Kabiyé
-	Gur (gen) -> Buli (in Ghana)
-	Gur (gen) -> Kàsim
-	Gur (gen) -> Sisaala
-	Gur (gen) -> Waama
-	Gur (gen) -> Kirma
-	Gur (gen) -> Dagaare
-	Gur (gen) -> Dagbani
-	Kru (gen) -> Klao
-	Kru (gen) -> Grebo
-	Bantoid (gen) -> Mwera
-	Bantoid (gen) -> Bafut
-	Bantoid (gen) -> Nyanga
-	Bantoid (gen) -> Bubi
-	Bantoid (gen) -> Duala
-	Bantoid (gen) -> Lebeo
-	Bantoid (gen) -> Sesotho
-	Bantoid (gen) -> Ntomba
-	Bantoid (gen) -> Hemba
-	Bantoid (gen) -> Iwoyo
-	Bantoid (gen) -> Kete
-	Bantoid (gen) -> Ngombe
-	Bantoid (gen) -> Mbosi
-	Bantoid (gen) -> Mongo
-	Bantoid (gen) -> Sengele
-	Bantoid (gen) -> Shambala
-	Bantoid (gen) -> Mungaka
-	Bantoid (gen) -> Mambila
-	Bantoid (gen) -> Tuki
-	Bantoid (gen) -> Xhosa
-	Bantoid (gen) -> Kongo
-	Bantoid (gen) -> Budu
-	Bantoid (gen) -> Chaga
-	Bantoid (gen) -> Lega
-	Bantoid (gen) -> Ngoni
-	Bantoid (gen) -> Bira
-	Bantoid (gen) -> Nkem
-	Bantoid (gen) -> Langi
-	Bantoid (gen) -> Pare
-	Bantoid (gen) -> Zulu
-	Bantoid (gen) -> Bobangi
-	Bantoid (gen) -> Matuumbi
-	Bantoid (gen) -> Bakueri
-	Bantoid (gen) -> Chichewa
-	Bantoid (gen) -> Pogoro
-	Bantoid (gen) -> Makua
-	Bantoid (gen) -> Kikuyu
-	Bantoid (gen) -> Sukuma
-	Bantoid (gen) -> Noni
-	Bantoid (gen) -> Haya
-	Bantoid (gen) -> Babole
-	Bantoid (gen) -> Talinga
-	Bantoid (gen) -> Ekoti
-	Bantoid (gen) -> Tabwa
-	Bantoid (gen) -> Lingala
-	Bantoid (gen) -> Ndumu
-	Bantoid (gen) -> Duma
-	Bantoid (gen) -> Mbalanhu
-	Bantoid (gen) -> Venda
-	Bantoid (gen) -> Ronga
-	Bantoid (gen) -> Mankon
-	Bantoid (gen) -> Swahili
-	Bantoid (gen) -> Ewondo
-	Bantoid (gen) -> Suku
-	Bantoid (gen) -> Nsenga
-	Bantoid (gen) -> Bushoong
-	Bantoid (gen) -> Ifumu
-	Bantoid (gen) -> Hunde
-	Bantoid (gen) -> Jarawa (in Nigeria)
-	Bantoid (gen) -> Tetela
-	Bantoid (gen) -> Luvale
-	Bantoid (gen) -> Pangwa
-	Bantoid (gen) -> Nkore-Kiga
-	Bantoid (gen) -> Runyankore
-	Bantoid (gen) -> Bankon
-	Bantoid (gen) -> Rimi
-	Bantoid (gen) -> Sotho (Northern)
-	Bantoid (gen) -> Hehe
-	Bantoid (gen) -> Lunda
-	Bantoid (gen) -> Babungo
-	Bantoid (gen) -> Ndonga
-	Bantoid (gen) -> Mbere
-	Bantoid (gen) -> Shona
-	Bantoid (gen) -> Tonga (in Zambia)
-	Bantoid (gen) -> Makonde
-	Bantoid (gen) -> Runyoro-Rutooro
-	Bantoid (gen) -> Doko
-	Bantoid (gen) -> Londo
-	Bantoid (gen) -> Holoholo
-	Bantoid (gen) -> Ila
-	Bantoid (gen) -> Kamba
-	Bantoid (gen) -> Sangu
-	Bantoid (gen) -> Aghem
-	Bantoid (gen) -> Ndebele (in South Africa)
-	Bantoid (gen) -> Kwangali
-	Bantoid (gen) -> Tiv
-	Bantoid (gen) -> Bolia
-	Bantoid (gen) -> Basaá
-	Bantoid (gen) -> Kinga
-	Bantoid (gen) -> Kiluba
-	Bantoid (gen) -> Kinyarwanda
-	Bantoid (gen) -> Lucazi
-	Bantoid (gen) -> Mbili
-	Bantoid (gen) -> Yao (in Malawi)
-	Bantoid (gen) -> Makaa
-	Songhay (gen) -> Koyra Chiini
-	Tupi-Guaraní (gen) -> Guaraní
-	Tupi-Guaraní (gen) -> Cocama
-	Afro-Asiatic (fam) -> Masa (gen)
-	Southern Cushitic (gen) -> Burunge
-	Afro-Asiatic (fam) -> Egyptian-Coptic (gen)
-	Afro-Asiatic (fam) -> East Chadic (gen)
-	Semitic (gen) -> Arabic (Egyptian)
-	Semitic (gen) -> Arabic (Kuwaiti)
-	Semitic (gen) -> Hebrew (Modern)
-	Semitic (gen) -> Arabic (Iraqi)
-	Semitic (gen) -> Arabic (Gulf)
-	Northern Pama-Nyungan (gen) -> Ngawun
-	Northern Pama-Nyungan (gen) -> Biri
-	Central Pama-Nyungan (gen) -> Paakantyi
-	Western Pama-Nyungan (gen) -> Yindjibarndi
-	Western Pama-Nyungan (gen) -> Martuthunira
-	Western Pama-Nyungan (gen) -> Yingkarta
-	North Halmaheran (gen) -> Sahu
-	North Halmaheran (gen) -> Tidore
-	North Halmaheran (gen) -> West Makian
-VSO -> SVO
-	Oceanic (gen) -> Port Sandwich
-	Oceanic (gen) -> Ambae (Lolovoli Northeast)
-	Oceanic (gen) -> Nengone
-	Oceanic (gen) -> Maleu
-	Oceanic (gen) -> Pohnpeian
-	Oceanic (gen) -> Labu
-	Oceanic (gen) -> Nalik
-	Oceanic (gen) -> Halia
-	Oceanic (gen) -> Tigak
-	Oceanic (gen) -> Kosraean
-	Oceanic (gen) -> Adzera
-	Oceanic (gen) -> Efate (South)
-	Oceanic (gen) -> Kwaio
-	Oceanic (gen) -> Puluwat
-	Oceanic (gen) -> Erromangan
-	Oceanic (gen) -> Paamese
-	Oceanic (gen) -> Jabêm
-	Oceanic (gen) -> Southeast Ambrym
-	Oceanic (gen) -> Kaulong
-	Oceanic (gen) -> Siar
-	Oceanic (gen) -> Sudest
-	Oceanic (gen) -> Mangap-Mbula
-	Oceanic (gen) -> Vinmavis
-	Oceanic (gen) -> Taiof
-	Oceanic (gen) -> Lenakel
-	Oceanic (gen) -> Futuna-Aniwa
-	Oceanic (gen) -> Aribwatsa
-	Oceanic (gen) -> Rotuman
-	Oceanic (gen) -> Sobei
-	Oceanic (gen) -> Patep
-	Oceanic (gen) -> Nguna
-	Oceanic (gen) -> Mokilese
-	Oceanic (gen) -> Sakao
-	Oceanic (gen) -> Buma
-	Oceanic (gen) -> Loniu
-	Oceanic (gen) -> Tumleo
-	Oceanic (gen) -> Ayiwo
-	Oceanic (gen) -> Banoni
-	Oceanic (gen) -> Sisiqa
-	Oceanic (gen) -> Lou
-	Oceanic (gen) -> Ulithian
-	Oceanic (gen) -> Arop-Lokep
-	Oceanic (gen) -> Amara
-	Oceanic (gen) -> Ifira-Mele
-	Oceanic (gen) -> Mussau
-	Oceanic (gen) -> Teop
-	Oceanic (gen) -> Mwotlap
-	Oceanic (gen) -> Woleaian
-	Oceanic (gen) -> Lewo
-	Oceanic (gen) -> Iaai
-	Oceanic (gen) -> Kele
-	Oceanic (gen) -> Tamabo
-	Oceanic (gen) -> Musom
-	Oceanic (gen) -> Xârâcùù
-	Oceanic (gen) -> Sio
-	Oceanic (gen) -> Lamen
-	Oceanic (gen) -> Mae
-	Oceanic (gen) -> Tolai
-	Oceanic (gen) -> Arosi
-	Oceanic (gen) -> Raga
-	Oceanic (gen) -> Ura
-	Oceanic (gen) -> Bali-Vitu
-	Oceanic (gen) -> Sonsorol-Tobi
-	Oceanic (gen) -> Nehan
-	Oceanic (gen) -> Nakanai
-	Oceanic (gen) -> Lusi
-	Oceanic (gen) -> Tungak
-	Austronesian (fam) -> Enggano (gen)
-	Austronesian (fam) -> Palauan (gen)
-	Austronesian (fam) -> South Halmahera - West New Guinea (gen)
-	Austronesian (fam) -> South Sulawesi (gen)
-	Austronesian (fam) -> Lampungic (gen)
-	Austronesian (fam) -> Central Malayo-Polynesian (gen)
-	Surmic (gen) -> Tirmaga
+	Temein (gen) -> Temein
 	Surmic (gen) -> Koegu
 	Surmic (gen) -> Mursi
 	Surmic (gen) -> Me'en
-	Nilotic (gen) -> Lango
-	Nilotic (gen) -> Shilluk
-	Nilotic (gen) -> Acholi
-	Nilotic (gen) -> Bari
-	Nilotic (gen) -> Luo
-	Caribbean Arawakan (gen) -> Arawak
-	Mayan (gen) -> Huastec
-	Mayan (gen) -> Chontal Maya
-	Aztecan (gen) -> Nahuatl (North Puebla)
-	Aztecan (gen) -> Nahuatl (Michoacán)
-	Aztecan (gen) -> Nahuatl (Tetelcingo)
+	Surmic (gen) -> Tirmaga
+	Eastern Jebel (gen) -> Ingessana
+	West Papuan (fam) -> North Halmaheran (gen)
+	North Halmaheran (gen) -> Tidore
+	North Halmaheran (gen) -> Sahu
+	North Halmaheran (gen) -> West Makian
+	West Papuan (fam) -> Kebar (gen)
+	Kebar (gen) -> Mpur
+	West Papuan (fam) -> Hatam (gen)
+	Hatam (gen) -> Hatam
+	West Papuan (fam) -> North-Central Bird's Head (gen)
+	North-Central Bird's Head (gen) -> Maybrat
+	North-Central Bird's Head (gen) -> Abun
+SOV -> SVO
+	Uto-Aztecan (fam) -> Aztecan (gen)
+	Indic (gen) -> Kashmiri
+	Tupi-Guaraní (gen) -> Guaraní
+	Tupi-Guaraní (gen) -> Cocama
+	Semitic (gen) -> Arabic (Gulf)
+	Semitic (gen) -> Hebrew (Modern)
+	Semitic (gen) -> Arabic (Kuwaiti)
+	Semitic (gen) -> Arabic (Egyptian)
+	Semitic (gen) -> Arabic (Iraqi)
+	Afro-Asiatic (fam) -> West Chadic (gen)
+	Afro-Asiatic (fam) -> Biu-Mandara (gen)
+	Afro-Asiatic (fam) -> East Chadic (gen)
+	Southern Cushitic (gen) -> Burunge
+	Afro-Asiatic (fam) -> Masa (gen)
+	Afro-Asiatic (fam) -> Egyptian-Coptic (gen)
+	Northern Pama-Nyungan (gen) -> Biri
+	Northern Pama-Nyungan (gen) -> Ngawun
+	Central Pama-Nyungan (gen) -> Paakantyi
+	Sino-Tibetan (fam) -> Bai (gen)
+	Sino-Tibetan (fam) -> Karen (gen)
+	Sino-Tibetan (fam) -> Chinese (gen)
+	Songhay (gen) -> Koyra Chiini
+	Eastern Sudanic (fam) -> Temein (gen)
+	Eastern Sudanic (fam) -> Surmic (gen)
+	Eastern Sudanic (fam) -> Eastern Jebel (gen)
+	Daju (gen) -> Shatt
+VSO -> SVO
 	Celtic (gen) -> Cornish
 	Celtic (gen) -> Breton
-	Berber (gen) -> Berber (Rif)
-	Biu-Mandara (gen) -> Mada (in Cameroon)
-	Biu-Mandara (gen) -> Buduma
-	Biu-Mandara (gen) -> Malgwa
-	Biu-Mandara (gen) -> Musgu
-	Biu-Mandara (gen) -> Mbara
-	Biu-Mandara (gen) -> Lagwan
-	Biu-Mandara (gen) -> Tera
-	Biu-Mandara (gen) -> Uldeme
-	Biu-Mandara (gen) -> Mofu-Gudur
-	Biu-Mandara (gen) -> Mina
-	Biu-Mandara (gen) -> Margi
-	Kadugli (gen) -> Katcha
-	Kadugli (gen) -> Kadugli
 	Oto-Manguean (fam) -> Pamean (gen)
 	Oto-Manguean (fam) -> Matlatzincan (gen)
+	Berber (gen) -> Berber (Rif)
+	Mayan (gen) -> Chontal Maya
+	Mayan (gen) -> Huastec
+	Caribbean Arawakan (gen) -> Arawak
+	Nilotic (gen) -> Shilluk
+	Nilotic (gen) -> Luo
+	Nilotic (gen) -> Lango
+	Nilotic (gen) -> Acholi
+	Nilotic (gen) -> Bari
 No dominant order -> SVO
-	Malayo-Sumbawan (gen) -> Indonesian
-	Malayo-Sumbawan (gen) -> Cham (Eastern)
-	Malayo-Sumbawan (gen) -> Cham (Western)
-	Malayo-Sumbawan (gen) -> Manadonese
-	Malayo-Sumbawan (gen) -> Sundanese
-	Malayo-Sumbawan (gen) -> Urak Lawoi'
-	Malayo-Sumbawan (gen) -> Iban
-	Gunwinyguan (fam) -> Warayic (gen)
-	Germanic (gen) -> Swedish
-	Germanic (gen) -> Danish
-	Germanic (gen) -> Icelandic
-	Germanic (gen) -> Norwegian
-	Germanic (gen) -> English
-	Kwa (gen) -> Akan
-	Kwa (gen) -> Gã
-	Kwa (gen) -> Baule
-	Kwa (gen) -> Avikam
-	Kwa (gen) -> Gungbe
-	Kwa (gen) -> Nkonya
-	Kwa (gen) -> Ewe
-	Kwa (gen) -> Lelemi
-	Kwa (gen) -> Fongbe
-	Kwa (gen) -> Adioukrou
-	Kwa (gen) -> Anyi
-	Kwa (gen) -> Anufo
-	Kwa (gen) -> Ega
-	Ubangi (gen) -> Ma
-	Ubangi (gen) -> Zande
-	Ubangi (gen) -> Mondunga
-	Ubangi (gen) -> Mba
-	Ubangi (gen) -> Mayogo
-	Ubangi (gen) -> Nzakara
-	Ubangi (gen) -> Ngbaka (Ma'bo)
-	Ubangi (gen) -> Sango
-	Ubangi (gen) -> Ngbandi
-	Ubangi (gen) -> Linda
-	Ubangi (gen) -> Baka (in Cameroon)
-	Mel (gen) -> Temne
-	Mel (gen) -> Baga Sitemu
-	Nupoid (gen) -> Ebira
-	Nupoid (gen) -> Nupe
-	Idomoid (gen) -> Igede
-	West Chadic (gen) -> Goemai
-	West Chadic (gen) -> Ngizim
-	West Chadic (gen) -> Kanakuru
-	West Chadic (gen) -> Ron
-	West Chadic (gen) -> Tangale
-	West Chadic (gen) -> Pero
-	West Chadic (gen) -> Angas
-	West Chadic (gen) -> Pa'a
-	West Chadic (gen) -> Mupun
-	West Chadic (gen) -> Hausa
-	South Guaicuruan (gen) -> Pilagá
-	South Guaicuruan (gen) -> Abipón
-	South Guaicuruan (gen) -> Mocoví
-	Mangarrayi-Maran (fam) -> Warndarang (gen)
-	Aslian (gen) -> Temiar
-	Palaihnihan (gen) -> Achumawi
-	Tangkic (gen) -> Yukulta
-	Mangbutu-Efe (gen) -> Mamvu
 	Penutian (fam) -> Costanoan (gen)
-	Totonacan (gen) -> Tepehua (Tlachichilco)
-	Totonacan (gen) -> Totonac (Xicotepec de Juárez)
-VOS -> SVO
-	Celebic (gen) -> Muna
-	Barito (gen) -> Banggi
-	Barito (gen) -> Ma'anyan
-	Mixe-Zoque (gen) -> Zoque (Chimalapa)
-	Mixe-Zoque (gen) -> Zoque (Soteapan)
+	Western Pama-Nyungan (gen) -> Yindjibarndi
+	Western Pama-Nyungan (gen) -> Yingkarta
+	Western Pama-Nyungan (gen) -> Martuthunira
+	Gunwinygic (gen) -> Gunbalang
+	Gunwinyguan (fam) -> Warayic (gen)
+	Palaihnihan (gen) -> Achumawi
+	Mangarrayi-Maran (fam) -> Warndarang (gen)
 VOS -> VOS
-	Celebic (gen) -> Tukang Besi
-	Northwest Sumatra-Barrier Islands (gen) -> Batak (Toba)
-	Northwest Sumatra-Barrier Islands (gen) -> Nias
+	Otomian (gen) -> Otomí (Mezquital)
 	Atayalic (gen) -> Seediq
-	Barito (gen) -> Malagasy
-	Bolivia-Parana (gen) -> Baure
-	Mixe-Zoque (fam) -> Mixe-Zoque (gen)
-	Mixe-Zoque (gen) -> Zoque (Copainalá)
-	Chumash (fam) -> Chumash (gen)
-	Chumash (gen) -> Chumash (Barbareño)
-	Chapacura-Wanham (fam) -> Chapacura-Wanham (gen)
-	Chapacura-Wanham (gen) -> Wari'
+	Northwest Sumatra-Barrier Islands (gen) -> Nias
+	Northwest Sumatra-Barrier Islands (gen) -> Batak (Toba)
+	Chinookan (gen) -> Chinook (Lower)
 	Kariri (fam) -> Kariri (gen)
 	Kariri (gen) -> Kipea
-	Southeastern Pama-Nyungan (gen) -> Wathawurrung
-	Southeastern Pama-Nyungan (gen) -> Wembawemba
-	Nicobarese (gen) -> Nicobarese (Car)
 	Cayuvava (fam) -> Cayuvava (gen)
 	Cayuvava (gen) -> Cayuvava
-	Otomian (gen) -> Otomí (Mezquital)
-	Chinookan (gen) -> Chinook (Lower)
-VSO -> VOS
+	Chumash (fam) -> Chumash (gen)
+	Chumash (gen) -> Chumash (Barbareño)
+	Bolivia-Parana (gen) -> Baure
+	Chapacura-Wanham (fam) -> Chapacura-Wanham (gen)
+	Chapacura-Wanham (gen) -> Wari'
+SVO -> VOS
+	Mixe-Zoque (gen) -> Zoque (Copainalá)
 	Oceanic (gen) -> Cèmuhî
-	Oceanic (gen) -> Gela
+	Oceanic (gen) -> Longgu
 	Oceanic (gen) -> Kiribati
 	Oceanic (gen) -> Anejom
-	Oceanic (gen) -> Longgu
-	Austronesian (fam) -> Celebic (gen)
-	Austronesian (fam) -> Northwest Sumatra-Barrier Islands (gen)
+	Oceanic (gen) -> Gela
 	Austronesian (fam) -> Atayalic (gen)
-	Austronesian (fam) -> Barito (gen)
-	Mayan (gen) -> Cakchiquel
-	Mayan (gen) -> Chuj
-	Mayan (gen) -> Tzotzil
+	Barito (gen) -> Malagasy
+	Austronesian (fam) -> Northwest Sumatra-Barrier Islands (gen)
+	Celebic (gen) -> Tukang Besi
+	Arawakan (fam) -> Bolivia-Parana (gen)
+VSO -> VOS
 	Chinantecan (gen) -> Chinantec (Lealao)
 	Oto-Manguean (fam) -> Otomian (gen)
-SOV -> VOS
-	Arawakan (fam) -> Bolivia-Parana (gen)
-	Pama-Nyungan (fam) -> Southeastern Pama-Nyungan (gen)
-SVO -> VOS
-	Austro-Asiatic (fam) -> Nicobarese (gen)
+	Mayan (gen) -> Tzotzil
+	Mayan (gen) -> Chuj
+	Mayan (gen) -> Cakchiquel
 No dominant order -> VOS
 	Penutian (fam) -> Chinookan (gen)
+	Southeastern Pama-Nyungan (gen) -> Wembawemba
+	Southeastern Pama-Nyungan (gen) -> Wathawurrung
+	Nicobarese (gen) -> Nicobarese (Car)
 VSO -> VSO
-	Austronesian (fam) -> Oceanic (gen)
-	Oceanic (gen) -> Hoava
-	Oceanic (gen) -> Marquesan
-	Oceanic (gen) -> Niuean
-	Oceanic (gen) -> Rapanui
-	Oceanic (gen) -> Niuafo'ou
-	Oceanic (gen) -> Hawaiian
-	Oceanic (gen) -> Kokota
-	Oceanic (gen) -> Maori
-	Oceanic (gen) -> Roviana
-	Oceanic (gen) -> Tahitian
-	Austronesian (fam) -> North Borneo (gen)
-	North Borneo (gen) -> Kadazan
-	North Borneo (gen) -> Timugon
-	Austronesian (fam) -> Bilic (gen)
-	Bilic (gen) -> Tboli
-	Austronesian (fam) -> Northern Luzon (gen)
-	Northern Luzon (gen) -> Ilocano
-	Northern Luzon (gen) -> Pangasinan
-	Austronesian (fam) -> Chamorro (gen)
-	Chamorro (gen) -> Chamorro
-	Austronesian (fam) -> Greater Central Philippine (gen)
-	Greater Central Philippine (gen) -> Tagalog
-	Greater Central Philippine (gen) -> Mamanwa
-	Greater Central Philippine (gen) -> Hiligaynon
-	Greater Central Philippine (gen) -> Manobo (Western Bukidnon)
-	Greater Central Philippine (gen) -> Agta (Dupaningan)
-	Greater Central Philippine (gen) -> Cebuano
-	Greater Central Philippine (gen) -> Agta (Central)
-	Austronesian (fam) -> Yapese (gen)
-	Yapese (gen) -> Yapese
-	Surmic (gen) -> Murle
-	Surmic (gen) -> Tennet
-	Surmic (gen) -> Didinga
-	Surmic (gen) -> Majang
-	Kuliak (gen) -> Ik
-	Kuliak (gen) -> So
-	Nilotic (gen) -> Teso
-	Nilotic (gen) -> Turkana
-	Nilotic (gen) -> Maasai
-	Nilotic (gen) -> Pokot
-	Nilotic (gen) -> Nandi
-	Nilotic (gen) -> Sebei
-	Nilotic (gen) -> Karimojong
-	Caribbean Arawakan (gen) -> Goajiro
-	Caribbean Arawakan (gen) -> Garífuna
-	Mayan (fam) -> Mayan (gen)
-	Mayan (gen) -> Sipakapense
-	Mayan (gen) -> Ixil
-	Mayan (gen) -> Mam
-	Mayan (gen) -> Jakaltek
-	Tepiman (gen) -> Tepehuan (Northern)
-	Aztecan (gen) -> Nahuatl (Huasteca)
-	Salishan (fam) -> Central Salish (gen)
-	Central Salish (gen) -> Halkomelem (Upriver)
-	Central Salish (gen) -> Squamish
-	Central Salish (gen) -> Musqueam
-	Salishan (fam) -> Interior Salish (gen)
-	Interior Salish (gen) -> Lillooet
-	Interior Salish (gen) -> Kalispel
-	Salishan (fam) -> Bella Coola (gen)
-	Bella Coola (gen) -> Bella Coola
+	Chimakuan (fam) -> Chimakuan (gen)
+	Chimakuan (gen) -> Quileute
 	Celtic (gen) -> Irish
-	Celtic (gen) -> Welsh (Colloquial)
 	Celtic (gen) -> Welsh
 	Celtic (gen) -> Gaelic (Scots)
-	Taushiro (fam) -> Taushiro (gen)
-	Taushiro (gen) -> Taushiro
-	Kuot (fam) -> Kuot (gen)
-	Kuot (gen) -> Kuot
-	Berber (gen) -> Kabyle
-	Berber (gen) -> Berber (Middle Atlas)
-	Berber (gen) -> Berber (Figuig)
-	Berber (gen) -> Tamashek
-	Biu-Mandara (gen) -> Gude
-	Biu-Mandara (gen) -> Lamang
-	Biu-Mandara (gen) -> Podoko
-	Biu-Mandara (gen) -> Hdi
+	Celtic (gen) -> Welsh (Colloquial)
 	Guató (fam) -> Guató (gen)
 	Guató (gen) -> Guató
-	Kadu (fam) -> Kadugli (gen)
-	Kadugli (gen) -> Krongo
-	Shompen (fam) -> Shompen (gen)
-	Shompen (gen) -> Shompen
+	Oto-Manguean (fam) -> Chinantecan (gen)
+	Chinantecan (gen) -> Chinantec (Comaltepec)
+	Chinantecan (gen) -> Chinantec (Palantla)
+	Chinantecan (gen) -> Chinantec (Quiotepec)
 	Oto-Manguean (fam) -> Subtiaba-Tlapanec (gen)
 	Subtiaba-Tlapanec (gen) -> Tlapanec
 	Oto-Manguean (fam) -> Zapotecan (gen)
+	Zapotecan (gen) -> Zapotec (Mitla)
 	Zapotecan (gen) -> Zapotec (Zoogocho)
 	Zapotecan (gen) -> Zapotec (Isthmus)
 	Zapotecan (gen) -> Chatino (Sierra Occidental)
-	Zapotecan (gen) -> Zapotec (Mitla)
 	Zapotecan (gen) -> Chatino (Yaitepec)
-	Oto-Manguean (fam) -> Chinantecan (gen)
-	Chinantecan (gen) -> Chinantec (Quiotepec)
-	Chinantecan (gen) -> Chinantec (Palantla)
-	Chinantecan (gen) -> Chinantec (Comaltepec)
 	Oto-Manguean (fam) -> Mixtecan (gen)
-	Mixtecan (gen) -> Trique (Copala)
-	Mixtecan (gen) -> Mixtec (Yosondúa)
-	Mixtecan (gen) -> Mixtec (Chalcatongo)
-	Mixtecan (gen) -> Mixtec (Jicaltepec)
 	Mixtecan (gen) -> Mixtec (Peñoles)
 	Mixtecan (gen) -> Mixtec (Ocotepec)
-	Wakashan (fam) -> Southern Wakashan (gen)
-	Southern Wakashan (gen) -> Makah
-	Southern Wakashan (gen) -> Kyuquot
-	Wakashan (fam) -> Northern Wakashan (gen)
-	Northern Wakashan (gen) -> Heiltsuk
-	Chimakuan (fam) -> Chimakuan (gen)
-	Chimakuan (gen) -> Quileute
-	Sahaptian (gen) -> Sahaptin (Northern)
+	Mixtecan (gen) -> Trique (Copala)
+	Mixtecan (gen) -> Mixtec (Yosondúa)
+	Mixtecan (gen) -> Mixtec (Jicaltepec)
+	Mixtecan (gen) -> Mixtec (Chalcatongo)
+	Yapese (gen) -> Yapese
+	Chamorro (gen) -> Chamorro
+	Northern Luzon (gen) -> Ilocano
+	Northern Luzon (gen) -> Pangasinan
+	North Borneo (gen) -> Kadazan
+	North Borneo (gen) -> Timugon
+	Greater Central Philippine (gen) -> Hiligaynon
+	Greater Central Philippine (gen) -> Cebuano
+	Greater Central Philippine (gen) -> Tagalog
+	Greater Central Philippine (gen) -> Agta (Central)
+	Greater Central Philippine (gen) -> Mamanwa
+	Greater Central Philippine (gen) -> Agta (Dupaningan)
+	Greater Central Philippine (gen) -> Manobo (Western Bukidnon)
+	Bilic (gen) -> Tboli
 	Tsimshianic (gen) -> Tsimshian (Coast)
 	Tsimshianic (gen) -> Nisgha
-SOV -> VSO
-	Eastern Sudanic (fam) -> Surmic (gen)
-	Eastern Sudanic (fam) -> Kuliak (gen)
-	Eastern Sudanic (fam) -> Nilotic (gen)
-	Arawakan (fam) -> Caribbean Arawakan (gen)
-	Corachol (gen) -> Cora
-	Uto-Aztecan (fam) -> Tepiman (gen)
-	Uto-Aztecan (fam) -> Aztecan (gen)
+	Taushiro (fam) -> Taushiro (gen)
+	Taushiro (gen) -> Taushiro
+	Berber (gen) -> Berber (Figuig)
+	Berber (gen) -> Kabyle
+	Berber (gen) -> Tamashek
+	Berber (gen) -> Berber (Middle Atlas)
+	Mayan (fam) -> Mayan (gen)
+	Mayan (gen) -> Mam
+	Mayan (gen) -> Sipakapense
+	Mayan (gen) -> Jakaltek
+	Mayan (gen) -> Ixil
+	Kuot (fam) -> Kuot (gen)
+	Kuot (gen) -> Kuot
+	Shompen (fam) -> Shompen (gen)
+	Shompen (gen) -> Shompen
+	Caribbean Arawakan (gen) -> Goajiro
+	Caribbean Arawakan (gen) -> Garífuna
+	Salishan (fam) -> Central Salish (gen)
+	Central Salish (gen) -> Squamish
+	Central Salish (gen) -> Musqueam
+	Central Salish (gen) -> Halkomelem (Upriver)
+	Salishan (fam) -> Bella Coola (gen)
+	Bella Coola (gen) -> Bella Coola
+	Salishan (fam) -> Interior Salish (gen)
+	Interior Salish (gen) -> Lillooet
+	Interior Salish (gen) -> Kalispel
+	Wakashan (fam) -> Northern Wakashan (gen)
+	Northern Wakashan (gen) -> Heiltsuk
+	Wakashan (fam) -> Southern Wakashan (gen)
+	Southern Wakashan (gen) -> Kyuquot
+	Southern Wakashan (gen) -> Makah
+	Nilotic (gen) -> Teso
+	Nilotic (gen) -> Maasai
+	Nilotic (gen) -> Pokot
+	Nilotic (gen) -> Karimojong
+	Nilotic (gen) -> Sebei
+	Nilotic (gen) -> Turkana
+	Nilotic (gen) -> Nandi
+	Kuliak (gen) -> Ik
+	Kuliak (gen) -> So
+SVO -> VSO
+	Aztecan (gen) -> Nahuatl (Huasteca)
 	Indo-European (fam) -> Celtic (gen)
-	Tucanoan (gen) -> Koreguaje
-	Tupi-Guaraní (gen) -> Guajajara
-	Afro-Asiatic (fam) -> Berber (gen)
-	Afro-Asiatic (fam) -> Biu-Mandara (gen)
-	Semitic (gen) -> Arabic (Modern Standard)
-No dominant order -> VSO
-	Penutian (fam) -> Sahaptian (gen)
-	Penutian (fam) -> Tsimshianic (gen)
-VOS -> VSO
+	Austronesian (fam) -> Yapese (gen)
+	Oceanic (gen) -> Roviana
+	Oceanic (gen) -> Niuean
+	Oceanic (gen) -> Rapanui
+	Oceanic (gen) -> Hoava
+	Oceanic (gen) -> Kokota
+	Oceanic (gen) -> Maori
+	Oceanic (gen) -> Tahitian
+	Oceanic (gen) -> Hawaiian
+	Oceanic (gen) -> Niuafo'ou
+	Oceanic (gen) -> Marquesan
+	Austronesian (fam) -> Chamorro (gen)
+	Austronesian (fam) -> Northern Luzon (gen)
+	Austronesian (fam) -> North Borneo (gen)
 	Celebic (gen) -> Wolio
+	Austronesian (fam) -> Greater Central Philippine (gen)
+	Austronesian (fam) -> Bilic (gen)
+	Biu-Mandara (gen) -> Gude
+	Biu-Mandara (gen) -> Hdi
+	Biu-Mandara (gen) -> Lamang
+	Biu-Mandara (gen) -> Podoko
+	Kadugli (gen) -> Krongo
+	Arawakan (fam) -> Caribbean Arawakan (gen)
+	Surmic (gen) -> Majang
+	Surmic (gen) -> Tennet
+	Surmic (gen) -> Didinga
+	Surmic (gen) -> Murle
+SOV -> VSO
+	Corachol (gen) -> Cora
+	Tepiman (gen) -> Tepehuan (Northern)
+	Tupi-Guaraní (gen) -> Guajajara
+	Tucanoan (gen) -> Koreguaje
+	Semitic (gen) -> Arabic (Modern Standard)
+	Afro-Asiatic (fam) -> Berber (gen)
+	Eastern Sudanic (fam) -> Nilotic (gen)
+	Eastern Sudanic (fam) -> Kuliak (gen)
+No dominant order -> VSO
+	Sahaptian (gen) -> Sahaptin (Northern)
+	Penutian (fam) -> Tsimshianic (gen)

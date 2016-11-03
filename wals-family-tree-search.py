@@ -12,8 +12,14 @@ color_list =[
  'turquoise4',
  'gold3']
 
+# Track 'tie' flag
+tie = 1
+
 # Go through all command line arguments and apply process
 for arg in sys.argv:
+    if arg == '-tie':
+        tie = 0
+        
     # Try to run on all .txt files
     if arg.split('.')[-1] == 'txt':
         # Read in all the lines
@@ -84,6 +90,7 @@ for arg in sys.argv:
                 cur_best_len = 0
                 for key in tmp:
                     if len(tmp[key]) > cur_best_len:
+                        cur_best_len = len(tmp[key])
                         best = [key]
                     elif len(tmp[key]) == cur_best_len:
                         best.append(key)
@@ -102,12 +109,19 @@ for arg in sys.argv:
                                              -len(global_vals[x])))
 
             fam_val = tmp_keys[0]
+            if tie == 0:
+                tmp_len = [len(tmp[x]) for x in tmp.keys()]
+                if tmp_len.count(max(tmp_len)) > 1:
+                    fam_val = 'NA'
             # For each genus, identify the correct value (resolving ties)
             # add the resulting transitions to "output"
             for key2 in geni:
                 gen_val = geni[key2]
                 if len(gen_val) > 1:
-                    gen_val = sorted(gen_val, key=lambda x: tmp_keys.index(x))[0]
+                    if tie == 1:
+                        gen_val = sorted(gen_val, key=lambda x: tmp_keys.index(x))[0]
+                    else:
+                        gen_val = 'NA'
                 else:
                     gen_val = gen_val[0]
                 try:
@@ -126,7 +140,10 @@ for arg in sys.argv:
                                                        lang))]
 
         # Print out output
-        outfile = open(arg.split('.')[0]+'-output.txt', 'w')
+        if tie == 1:
+            outfile = open(arg.split('.')[0]+'-output.txt', 'w')
+        else:
+            outfile = open(arg.split('.')[0]+'-output-NAties.txt', 'w')
         outfile.write('Number of transitions (sorted by start)\n')
         skeys = sorted(output.keys(), key=lambda x: (x[0], -len(output[x])))
         for key in skeys:
@@ -159,7 +176,8 @@ for arg in sys.argv:
         # Create nodes
         i = 0
         node_dict = {}
-        for key in graph_dict:
+        node_list = [x for x in graph_dict] + [x for y in graph_dict for x in graph_dict[y]]
+        for key in set(node_list):
             dot.node(str(i), key, fontcolor=color_list[i])
             node_dict[key] = str(i)
             i += 1
@@ -175,4 +193,7 @@ for arg in sys.argv:
                          fontcolor=color_list[int(node_dict[key])])
 
         # Save state diagram
-        dot.render(arg.split('.')[0]+'-graph.gv')
+        if tie == 1:
+            dot.render(arg.split('.')[0]+'-graph.gv')
+        else:
+            dot.render(arg.split('.')[0]+'-graph-NAties.gv')
